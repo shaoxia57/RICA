@@ -1,0 +1,842 @@
+{
+ "0": {
+  "original": {
+   "original": "A is made out of glass and B is made out of stone, so A is more transparent than B",
+   "asymmetric_premise": "B is made out of glass and A is made out of stone, so A is less transparent than B",
+   "asymmetric_conclusion": "A is made out of glass and B is made out of stone, so B is less transparent than A"
+  },
+  "negation": {
+   "original": "A is made out of glass and B is made out of stone, so A is not less transparent than B",
+   "asymmetric_premise": "B is made out of glass and A is made out of stone, so A is not more transparent than B",
+   "asymmetric_conclusion": "A is made out of glass and B is made out of stone, so B is not more transparent than A"
+  },
+  "antonym": {
+   "original": "A is made out of glass and B is made out of stone, so A is less opaque than B",
+   "asymmetric_premise": "B is made out of glass and A is made out of stone, so A is more opaque than B",
+   "asymmetric_conclusion": "A is made out of glass and B is made out of stone, so B is more opaque than A"
+  },
+  "paraphrase": {
+   "original": "A is made out of glass and B is made out of stone, so A is better at letting light through than B",
+   "asymmetric_premise": "B is made out of glass and A is made out of stone, so A is worse at letting light through than B",
+   "asymmetric_conclusion": "A is made out of glass and B is made out of stone, so B is worse at letting light through than A"
+  },
+  "paraphrase_inversion": {
+   "original": "A is made out of glass and B is made out of stone, so A is worse at blocking light than B",
+   "asymmetric_premise": "B is made out of glass and A is made out of stone, so A is better at blocking light than B",
+   "asymmetric_conclusion": "A is made out of glass and B is made out of stone, so B is better at blocking light than A"
+  },
+  "negation_antonym": {
+   "original": "A is made out of glass and B is made out of stone, so A is not more opaque than B",
+   "asymmetric_premise": "B is made out of glass and A is made out of stone, so A is not less opaque than B",
+   "asymmetric_conclusion": "A is made out of glass and B is made out of stone, so B is not less opaque than A"
+  },
+  "negation_paraphrase": {
+   "original": "A is made out of glass and B is made out of stone, so A is not worse at letting light through than B",
+   "asymmetric_premise": "B is made out of glass and A is made out of stone, so A is not better at letting light through than B",
+   "asymmetric_conclusion": "A is made out of glass and B is made out of stone, so B is not better at letting light through than A"
+  },
+  "negation_paraphrase_inversion": {
+   "original": "A is made out of glass and B is made out of stone, so A is not better at blocking light than B",
+   "asymmetric_premise": "B is made out of glass and A is made out of stone, so A is not worse at blocking light than B",
+   "asymmetric_conclusion": "A is made out of glass and B is made out of stone, so B is not worse at blocking light than A"
+  }
+ },
+ "1": {
+  "original": {
+   "original": "A is made out of cotton and B is made out of glass, so A is less sharp than B",
+   "asymmetric_premise": "B is made out of cotton and A is made out of glass, so A is more sharp than B",
+   "asymmetric_conclusion": "A is made out of cotton and B is made out of glass, so B is more sharp than A"
+  },
+  "negation": {
+   "original": "A is made out of cotton and B is made out of glass, so A is not more sharp than B",
+   "asymmetric_premise": "B is made out of cotton and A is made out of glass, so A is not less sharp than B",
+   "asymmetric_conclusion": "A is made out of cotton and B is made out of glass, so B is not less sharp than A"
+  },
+  "antonym": {
+   "original": "A is made out of cotton and B is made out of glass, so A is more blunt than B",
+   "asymmetric_premise": "B is made out of cotton and A is made out of glass, so A is less blunt than B",
+   "asymmetric_conclusion": "A is made out of cotton and B is made out of glass, so B is less blunt than A"
+  },
+  "paraphrase": {
+   "original": "A is made out of cotton and B is made out of glass, so A is worse to cut with than B",
+   "asymmetric_premise": "B is made out of cotton and A is made out of glass, so A is better to cut with than B",
+   "asymmetric_conclusion": "A is made out of cotton and B is made out of glass, so B is better to cut with than A"
+  },
+  "paraphrase_inversion": {
+   "original": "A is made out of cotton and B is made out of glass, so A is more edgeless than B",
+   "asymmetric_premise": "B is made out of cotton and A is made out of glass, so A is less edgeless than B",
+   "asymmetric_conclusion": "A is made out of cotton and B is made out of glass, so B is less edgeless than A"
+  },
+  "negation_antonym": {
+   "original": "A is made out of cotton and B is made out of glass, so A is not less blunt than B",
+   "asymmetric_premise": "B is made out of cotton and A is made out of glass, so A is not more blunt than B",
+   "asymmetric_conclusion": "A is made out of cotton and B is made out of glass, so B is not more blunt than A"
+  },
+  "negation_paraphrase": {
+   "original": "A is made out of cotton and B is made out of glass, so A is not better to cut with than B",
+   "asymmetric_premise": "B is made out of cotton and A is made out of glass, so A is not worse to cut with than B",
+   "asymmetric_conclusion": "A is made out of cotton and B is made out of glass, so B is not worse to cut with than A"
+  },
+  "negation_paraphrase_inversion": {
+   "original": "A is made out of cotton and B is made out of glass, so A is not less edgeless than B",
+   "asymmetric_premise": "B is made out of cotton and A is made out of glass, so A is not more edgeless than B",
+   "asymmetric_conclusion": "A is made out of cotton and B is made out of glass, so B is not more edgeless than A"
+  }
+ },
+ "2": {
+  "original": {
+   "original": "A is made out of concrete and B is made out of paper, so A should be more heavy than B",
+   "asymmetric_premise": "B is made out of concrete and A is made out of paper, so A should be less heavy than B",
+   "asymmetric_conclusion": "A is made out of concrete and B is made out of paper, so B should be less heavy than A"
+  },
+  "negation": {
+   "original": "A is made out of concrete and B is made out of paper, so A should not be less heavy than B",
+   "asymmetric_premise": "B is made out of concrete and A is made out of paper, so A should not be more heavy than B",
+   "asymmetric_conclusion": "A is made out of concrete and B is made out of paper, so B should not be more heavy than A"
+  },
+  "antonym": {
+   "original": "A is made out of concrete and B is made out of paper, so A should be less lightweight than B",
+   "asymmetric_premise": "B is made out of concrete and A is made out of paper, so A should be more lightweight than B",
+   "asymmetric_conclusion": "A is made out of concrete and B is made out of paper, so B should be more lightweight than A"
+  },
+  "paraphrase": {
+   "original": "A is made out of concrete and B is made out of paper, so A weighs more than B",
+   "asymmetric_premise": "B is made out of concrete and A is made out of paper, so A weighs less than B",
+   "asymmetric_conclusion": "A is made out of concrete and B is made out of paper, so B weighs less than A"
+  },
+  "paraphrase_inversion": {
+   "original": "A is made out of concrete and B is made out of paper, so A is harder to lift than B",
+   "asymmetric_premise": "B is made out of concrete and A is made out of paper, so A is easier to lift than B",
+   "asymmetric_conclusion": "A is made out of concrete and B is made out of paper, so B is easier to lift than A"
+  },
+  "negation_antonym": {
+   "original": "A is made out of concrete and B is made out of paper, so A should not be more lightweight than B",
+   "asymmetric_premise": "B is made out of concrete and A is made out of paper, so A should not be less lightweight than B",
+   "asymmetric_conclusion": "A is made out of concrete and B is made out of paper, so B should not be less lightweight than A"
+  },
+  "negation_paraphrase": {
+   "original": "A is made out of concrete and B is made out of paper, so A does not weigh less than B",
+   "asymmetric_premise": "B is made out of concrete and A is made out of paper, so A does not weigh more than B",
+   "asymmetric_conclusion": "A is made out of concrete and B is made out of paper, so B does not weigh more than A"
+  },
+  "negation_paraphrase_inversion": {
+   "original": "A is made out of concrete and B is made out of paper, so A is not easier to lift than B",
+   "asymmetric_premise": "B is made out of concrete and A is made out of paper, so A is not harder to lift than B",
+   "asymmetric_conclusion": "A is made out of concrete and B is made out of paper, so B is not harder to lift than A"
+  }
+ },
+ "3": {
+  "original": {
+   "original": "A is made out of metal and B is made out of rubber, so A should float worse than B",
+   "asymmetric_premise": "B is made out of metal and A is made out of rubber, so A should float better than B",
+   "asymmetric_conclusion": "A is made out of metal and B is made out of rubber, so B should float better than A"
+  },
+  "negation": {
+   "original": "A is made out of metal and B is made out of rubber, so A should not float better than B",
+   "asymmetric_premise": "B is made out of metal and A is made out of rubber, so A should not float worse than B",
+   "asymmetric_conclusion": "A is made out of metal and B is made out of rubber, so B should not float worse than A"
+  },
+  "antonym": {
+   "original": "A is made out of metal and B is made out of rubber, so A should sink better than B",
+   "asymmetric_premise": "B is made out of metal and A is made out of rubber, so A should sink worse than B",
+   "asymmetric_conclusion": "A is made out of metal and B is made out of rubber, so B should sink worse than A"
+  },
+  "paraphrase": {
+   "original": "A is made out of metal and B is made out of rubber, so A is less buoyant than B",
+   "asymmetric_premise": "B is made out of metal and A is made out of rubber, so A is more buoyant than B",
+   "asymmetric_conclusion": "A is made out of metal and B is made out of rubber, so B is more buoyant than A"
+  },
+  "paraphrase_inversion": {
+   "original": "A is made out of metal and B is made out of rubber, so A falls to the ocean floor more easily than B",
+   "asymmetric_premise": "B is made out of metal and A is made out of rubber, so A falls to the ocean floor less easily than B",
+   "asymmetric_conclusion": "A is made out of metal and B is made out of rubber, so B falls to the ocean floor less easily than A"
+  },
+  "negation_antonym": {
+   "original": "A is made out of metal and B is made out of rubber, so A should not sink worse than B",
+   "asymmetric_premise": "B is made out of metal and A is made out of rubber, so A should not sink better than B",
+   "asymmetric_conclusion": "A is made out of metal and B is made out of rubber, so B should not sink better than A"
+  },
+  "negation_paraphrase": {
+   "original": "A is made out of metal and B is made out of rubber, so A is not more buoyant than B",
+   "asymmetric_premise": "B is made out of metal and A is made out of rubber, so A is not less buoyant than B",
+   "asymmetric_conclusion": "A is made out of metal and B is made out of rubber, so B is not less buoyant than A"
+  },
+  "negation_paraphrase_inversion": {
+   "original": "A is made out of metal and B is made out of rubber, so A does not fall to the ocean floor less easily than B",
+   "asymmetric_premise": "B is made out of metal and A is made out of rubber, so A does not fall to the ocean floor more easily than B",
+   "asymmetric_conclusion": "A is made out of metal and B is made out of rubber, so B does not fall to the ocean floor more easily than A"
+  }
+ },
+ "4": {
+  "original": {
+   "original": "A is made out of glass and B is made out of copper, so A is more fragile than B",
+   "asymmetric_premise": "B is made out of glass and A is made out of copper, so A is less fragile than B",
+   "asymmetric_conclusion": "A is made out of glass and B is made out of copper, so B is less fragile than A"
+  },
+  "negation": {
+   "original": "A is made out of glass and B is made out of copper, so A is not less fragile than B",
+   "asymmetric_premise": "B is made out of glass and A is made out of copper, so A is not more fragile than B",
+   "asymmetric_conclusion": "A is made out of glass and B is made out of copper, so B is not more fragile than A"
+  },
+  "antonym": {
+   "original": "A is made out of glass and B is made out of copper, so A is less sturdy than B",
+   "asymmetric_premise": "B is made out of glass and A is made out of copper, so A is more sturdy than B",
+   "asymmetric_conclusion": "A is made out of glass and B is made out of copper, so B is more sturdy than A"
+  },
+  "paraphrase": {
+   "original": "A is made out of glass and B is made out of copper, so A is more breakable than B",
+   "asymmetric_premise": "B is made out of glass and A is made out of copper, so A is less breakable than B",
+   "asymmetric_conclusion": "A is made out of glass and B is made out of copper, so B is less breakable than A"
+  },
+  "paraphrase_inversion": {
+   "original": "A is made out of glass and B is made out of copper, so A is worse at staying intact when physically impacted B",
+   "asymmetric_premise": "B is made out of glass and A is made out of copper, so A is better at staying intact when physically impacted B",
+   "asymmetric_conclusion": "A is made out of glass and B is made out of copper, so B is better at staying intact when physically impacted A"
+  },
+  "negation_antonym": {
+   "original": "A is made out of glass and B is made out of copper, so A is not more sturdy than B",
+   "asymmetric_premise": "B is made out of glass and A is made out of copper, so A is not less sturdy than B",
+   "asymmetric_conclusion": "A is made out of glass and B is made out of copper, so B is not less sturdy than A"
+  },
+  "negation_paraphrase": {
+   "original": "A is made out of glass and B is made out of copper, so A is not less breakable than B",
+   "asymmetric_premise": "B is made out of glass and A is made out of copper, so A is not more breakable than B",
+   "asymmetric_conclusion": "A is made out of glass and B is made out of copper, so B is not more breakable than A"
+  },
+  "negation_paraphrase_inversion": {
+   "original": "A is made out of glass and B is made out of copper, so A is not better at staying intact when physically impacted B",
+   "asymmetric_premise": "B is made out of glass and A is made out of copper, so A is not worse at staying intact when physically impacted B",
+   "asymmetric_conclusion": "A is made out of glass and B is made out of copper, so B is not worse at staying intact when physically impacted A"
+  }
+ },
+ "5": {
+  "original": {
+   "original": "A is made out of steel and B is made out of wool, so A is less soft than B",
+   "asymmetric_premise": "B is made out of steel and A is made out of wool, so A is more soft than B",
+   "asymmetric_conclusion": "A is made out of steel and B is made out of wool, so B is more soft than A"
+  },
+  "negation": {
+   "original": "A is made out of steel and B is made out of wool, so A is not more soft than B",
+   "asymmetric_premise": "B is made out of steel and A is made out of wool, so A is not less soft than B",
+   "asymmetric_conclusion": "A is made out of steel and B is made out of wool, so B is not less soft than A"
+  },
+  "antonym": {
+   "original": "A is made out of steel and B is made out of wool, so A is more coarse than B",
+   "asymmetric_premise": "B is made out of steel and A is made out of wool, so A is less coarse than B",
+   "asymmetric_conclusion": "A is made out of steel and B is made out of wool, so B is less coarse than A"
+  },
+  "paraphrase": {
+   "original": "A is made out of steel and B is made out of wool, so A has a less soft feel to it than B",
+   "asymmetric_premise": "B is made out of steel and A is made out of wool, so A has a more soft feel to it than B",
+   "asymmetric_conclusion": "A is made out of steel and B is made out of wool, so B has a more soft feel to it than A"
+  },
+  "paraphrase_inversion": {
+   "original": "A is made out of steel and B is made out of wool, so A is more rough to the touch than B",
+   "asymmetric_premise": "B is made out of steel and A is made out of wool, so A is less rough to the touch than B",
+   "asymmetric_conclusion": "A is made out of steel and B is made out of wool, so B is less rough to the touch than A"
+  },
+  "negation_antonym": {
+   "original": "A is made out of steel and B is made out of wool, so A is not less coarse than B",
+   "asymmetric_premise": "B is made out of steel and A is made out of wool, so A is not more coarse than B",
+   "asymmetric_conclusion": "A is made out of steel and B is made out of wool, so B is not more coarse than A"
+  },
+  "negation_paraphrase": {
+   "original": "A is made out of steel and B is made out of wool, so A does not have a more soft feel to it than B",
+   "asymmetric_premise": "B is made out of steel and A is made out of wool, so A does not have a less soft feel to it than B",
+   "asymmetric_conclusion": "A is made out of steel and B is made out of wool, so B does not have a less soft feel to it than A"
+  },
+  "negation_paraphrase_inversion": {
+   "original": "A is made out of steel and B is made out of wool, so A is not less rough to the touch than B",
+   "asymmetric_premise": "B is made out of steel and A is made out of wool, so A is not more rough to the touch than B",
+   "asymmetric_conclusion": "A is made out of steel and B is made out of wool, so B is not more rough to the touch than A"
+  }
+ },
+ "6": {
+  "original": {
+   "original": "A is made out of wood and B is made out of glass, so A is more combustible than B",
+   "asymmetric_premise": "B is made out of wood and A is made out of glass, so A is less combustible than B",
+   "asymmetric_conclusion": "A is made out of wood and B is made out of glass, so B is less combustible than A"
+  },
+  "negation": {
+   "original": "A is made out of wood and B is made out of glass, so A is not less combustible than B",
+   "asymmetric_premise": "B is made out of wood and A is made out of glass, so A is not more combustible than B",
+   "asymmetric_conclusion": "A is made out of wood and B is made out of glass, so B is not more combustible than A"
+  },
+  "antonym": {
+   "original": "A is made out of wood and B is made out of glass, so A is less fire retardant than B",
+   "asymmetric_premise": "B is made out of wood and A is made out of glass, so A is more fire retardant than B",
+   "asymmetric_conclusion": "A is made out of wood and B is made out of glass, so B is more fire retardant than A"
+  },
+  "paraphrase": {
+   "original": "A is made out of wood and B is made out of glass, so A is easier to burn than B",
+   "asymmetric_premise": "B is made out of wood and A is made out of glass, so A is harder to burn than B",
+   "asymmetric_conclusion": "A is made out of wood and B is made out of glass, so B is harder to burn than A"
+  },
+  "paraphrase_inversion": {
+   "original": "A is made out of wood and B is made out of glass, so A has a worse chances of surviving a fire than B",
+   "asymmetric_premise": "B is made out of wood and A is made out of glass, so A has a better chances of surviving a fire than B",
+   "asymmetric_conclusion": "A is made out of wood and B is made out of glass, so B has a better chances of surviving a fire than A"
+  },
+  "negation_antonym": {
+   "original": "A is made out of wood and B is made out of glass, so A is not more fire retardant than B",
+   "asymmetric_premise": "B is made out of wood and A is made out of glass, so A is not less fire retardant than B",
+   "asymmetric_conclusion": "A is made out of wood and B is made out of glass, so B is not less fire retardant than A"
+  },
+  "negation_paraphrase": {
+   "original": "A is made out of wood and B is made out of glass, so A is not harder to burn than B",
+   "asymmetric_premise": "B is made out of wood and A is made out of glass, so A is not easier to burn than B",
+   "asymmetric_conclusion": "A is made out of wood and B is made out of glass, so B is not easier to burn than A"
+  },
+  "negation_paraphrase_inversion": {
+   "original": "A is made out of wood and B is made out of glass, so A does not have a better chances of surviving a fire than B",
+   "asymmetric_premise": "B is made out of wood and A is made out of glass, so A does not have a worse chances of surviving a fire than B",
+   "asymmetric_conclusion": "A is made out of wood and B is made out of glass, so B does not have a worse chances of surviving a fire than A"
+  }
+ },
+ "7": {
+  "original": {
+   "original": "A is made out of sponge and B is made out of nylon, so A is worse for water resistance than B",
+   "asymmetric_premise": "B is made out of sponge and A is made out of nylon, so A is better for water resistance than B",
+   "asymmetric_conclusion": "A is made out of sponge and B is made out of nylon, so B is better for water resistance than A"
+  },
+  "negation": {
+   "original": "A is made out of sponge and B is made out of nylon, so A is not better for water resistance than B",
+   "asymmetric_premise": "B is made out of sponge and A is made out of nylon, so A is not worse for water resistance than B",
+   "asymmetric_conclusion": "A is made out of sponge and B is made out of nylon, so B is not worse for water resistance than A"
+  },
+  "antonym": {
+   "original": "A is made out of sponge and B is made out of nylon, so A is better for water absorption than B",
+   "asymmetric_premise": "B is made out of sponge and A is made out of nylon, so A is worse for water absorption than B",
+   "asymmetric_conclusion": "A is made out of sponge and B is made out of nylon, so B is worse for water absorption than A"
+  },
+  "paraphrase": {
+   "original": "A is made out of sponge and B is made out of nylon, so A is worse to use for waterproofing than B",
+   "asymmetric_premise": "B is made out of sponge and A is made out of nylon, so A is better to use for waterproofing than B",
+   "asymmetric_conclusion": "A is made out of sponge and B is made out of nylon, so B is better to use for waterproofing than A"
+  },
+  "paraphrase_inversion": {
+   "original": "A is made out of sponge and B is made out of nylon, so A is better for absorbing water than B",
+   "asymmetric_premise": "B is made out of sponge and A is made out of nylon, so A is worse for absorbing water than B",
+   "asymmetric_conclusion": "A is made out of sponge and B is made out of nylon, so B is worse for absorbing water than A"
+  },
+  "negation_antonym": {
+   "original": "A is made out of sponge and B is made out of nylon, so A is not worse for water absorption than B",
+   "asymmetric_premise": "B is made out of sponge and A is made out of nylon, so A is not better for water absorption than B",
+   "asymmetric_conclusion": "A is made out of sponge and B is made out of nylon, so B is not better for water absorption than A"
+  },
+  "negation_paraphrase": {
+   "original": "A is made out of sponge and B is made out of nylon, so A is not better to use for waterproofing than B",
+   "asymmetric_premise": "B is made out of sponge and A is made out of nylon, so A is not worse to use for waterproofing than B",
+   "asymmetric_conclusion": "A is made out of sponge and B is made out of nylon, so B is not worse to use for waterproofing than A"
+  },
+  "negation_paraphrase_inversion": {
+   "original": "A is made out of sponge and B is made out of nylon, so A is not worse for absorbing water than B",
+   "asymmetric_premise": "B is made out of sponge and A is made out of nylon, so A is not better for absorbing water than B",
+   "asymmetric_conclusion": "A is made out of sponge and B is made out of nylon, so B is not better for absorbing water than A"
+  }
+ },
+ "8": {
+  "original": {
+   "original": "A is made out of copper and B is made out of concrete, so A is more ductile than B",
+   "asymmetric_premise": "B is made out of copper and A is made out of concrete, so A is less ductile than B",
+   "asymmetric_conclusion": "A is made out of copper and B is made out of concrete, so B is less ductile than A"
+  },
+  "negation": {
+   "original": "A is made out of copper and B is made out of concrete, so A is not less ductile than B",
+   "asymmetric_premise": "B is made out of copper and A is made out of concrete, so A is not more ductile than B",
+   "asymmetric_conclusion": "A is made out of copper and B is made out of concrete, so B is not more ductile than A"
+  },
+  "antonym": {
+   "original": "A is made out of copper and B is made out of concrete, so A is less rigid than B",
+   "asymmetric_premise": "B is made out of copper and A is made out of concrete, so A is more rigid than B",
+   "asymmetric_conclusion": "A is made out of copper and B is made out of concrete, so B is more rigid than A"
+  },
+  "paraphrase": {
+   "original": "A is made out of copper and B is made out of concrete, so A is easier to mold than B",
+   "asymmetric_premise": "B is made out of copper and A is made out of concrete, so A is harder to mold than B",
+   "asymmetric_conclusion": "A is made out of copper and B is made out of concrete, so B is harder to mold than A"
+  },
+  "paraphrase_inversion": {
+   "original": "A is made out of copper and B is made out of concrete, so A is less stiff than B",
+   "asymmetric_premise": "B is made out of copper and A is made out of concrete, so A is more stiff than B",
+   "asymmetric_conclusion": "A is made out of copper and B is made out of concrete, so B is more stiff than A"
+  },
+  "negation_antonym": {
+   "original": "A is made out of copper and B is made out of concrete, so A is not more rigid than B",
+   "asymmetric_premise": "B is made out of copper and A is made out of concrete, so A is not less rigid than B",
+   "asymmetric_conclusion": "A is made out of copper and B is made out of concrete, so B is not less rigid than A"
+  },
+  "negation_paraphrase": {
+   "original": "A is made out of copper and B is made out of concrete, so A is not harder to mold than B",
+   "asymmetric_premise": "B is made out of copper and A is made out of concrete, so A is not easier to mold than B",
+   "asymmetric_conclusion": "A is made out of copper and B is made out of concrete, so B is not easier to mold than A"
+  },
+  "negation_paraphrase_inversion": {
+   "original": "A is made out of copper and B is made out of concrete, so A is not more stiff than B",
+   "asymmetric_premise": "B is made out of copper and A is made out of concrete, so A is not less stiff than B",
+   "asymmetric_conclusion": "A is made out of copper and B is made out of concrete, so B is not less stiff than A"
+  }
+ },
+ "9": {
+  "original": {
+   "original": "A is made out of metal and B is made out of cloth, so A is less foldable than B",
+   "asymmetric_premise": "B is made out of metal and A is made out of cloth, so A is more foldable than B",
+   "asymmetric_conclusion": "A is made out of metal and B is made out of cloth, so B is more foldable than A"
+  },
+  "negation": {
+   "original": "A is made out of metal and B is made out of cloth, so A is not more foldable than B",
+   "asymmetric_premise": "B is made out of metal and A is made out of cloth, so A is not less foldable than B",
+   "asymmetric_conclusion": "A is made out of metal and B is made out of cloth, so B is not less foldable than A"
+  },
+  "antonym": {
+   "original": "A is made out of metal and B is made out of cloth, so A is more rigid than B",
+   "asymmetric_premise": "B is made out of metal and A is made out of cloth, so A is less rigid than B",
+   "asymmetric_conclusion": "A is made out of metal and B is made out of cloth, so B is less rigid than A"
+  },
+  "paraphrase": {
+   "original": "A is made out of metal and B is made out of cloth, so A is harder to be folded than B",
+   "asymmetric_premise": "B is made out of metal and A is made out of cloth, so A is easier to be folded than B",
+   "asymmetric_conclusion": "A is made out of metal and B is made out of cloth, so B is easier to be folded than A"
+  },
+  "paraphrase_inversion": {
+   "original": "A is made out of metal and B is made out of cloth, so A is better at retaining its shape then B",
+   "asymmetric_premise": "B is made out of metal and A is made out of cloth, so A is worse at retaining its shape then B",
+   "asymmetric_conclusion": "A is made out of metal and B is made out of cloth, so B is worse at retaining its shape then A"
+  },
+  "negation_antonym": {
+   "original": "A is made out of metal and B is made out of cloth, so A is not less rigid than B",
+   "asymmetric_premise": "B is made out of metal and A is made out of cloth, so A is not more rigid than B",
+   "asymmetric_conclusion": "A is made out of metal and B is made out of cloth, so B is not more rigid than A"
+  },
+  "negation_paraphrase": {
+   "original": "A is made out of metal and B is made out of cloth, so A is not easier to be folded than B",
+   "asymmetric_premise": "B is made out of metal and A is made out of cloth, so A is not harder to be folded than B",
+   "asymmetric_conclusion": "A is made out of metal and B is made out of cloth, so B is not harder to be folded than A"
+  },
+  "negation_paraphrase_inversion": {
+   "original": "A is made out of metal and B is made out of cloth, so A is not worse at retaining its shape then B",
+   "asymmetric_premise": "B is made out of metal and A is made out of cloth, so A is not better at retaining its shape then B",
+   "asymmetric_conclusion": "A is made out of metal and B is made out of cloth, so B is not better at retaining its shape then A"
+  }
+ },
+ "10": {
+  "original": {
+   "original": "A is made out of chocolate and B is made out of metal, so A is harder to keep frozen than B",
+   "asymmetric_premise": "B is made out of chocolate and A is made out of metal, so A is easier to keep frozen than B",
+   "asymmetric_conclusion": "A is made out of chocolate and B is made out of metal, so B is easier to keep frozen than A"
+  },
+  "negation": {
+   "original": "A is made out of chocolate and B is made out of metal, so A is not easier to keep frozen than B",
+   "asymmetric_premise": "B is made out of chocolate and A is made out of metal, so A is not harder to keep frozen than B",
+   "asymmetric_conclusion": "A is made out of chocolate and B is made out of metal, so B is not harder to keep frozen than A"
+  },
+  "antonym": {
+   "original": "A is made out of chocolate and B is made out of metal, so A is easier to melt than B",
+   "asymmetric_premise": "B is made out of chocolate and A is made out of metal, so A is harder to melt than B",
+   "asymmetric_conclusion": "A is made out of chocolate and B is made out of metal, so B is harder to melt than A"
+  },
+  "paraphrase": {
+   "original": "A is made out of chocolate and B is made out of metal, so A is harder to keep solid than B",
+   "asymmetric_premise": "B is made out of chocolate and A is made out of metal, so A is easier to keep solid than B",
+   "asymmetric_conclusion": "A is made out of chocolate and B is made out of metal, so B is easier to keep solid than A"
+  },
+  "paraphrase_inversion": {
+   "original": "A is made out of chocolate and B is made out of metal, so A is easier to turn into liquid than B",
+   "asymmetric_premise": "B is made out of chocolate and A is made out of metal, so A is harder to turn into liquid than B",
+   "asymmetric_conclusion": "A is made out of chocolate and B is made out of metal, so B is harder to turn into liquid than A"
+  },
+  "negation_antonym": {
+   "original": "A is made out of chocolate and B is made out of metal, so A is not harder to melt than B",
+   "asymmetric_premise": "B is made out of chocolate and A is made out of metal, so A is not easier to melt than B",
+   "asymmetric_conclusion": "A is made out of chocolate and B is made out of metal, so B is not easier to melt than A"
+  },
+  "negation_paraphrase": {
+   "original": "A is made out of chocolate and B is made out of metal, so A is not easier to keep solid than B",
+   "asymmetric_premise": "B is made out of chocolate and A is made out of metal, so A is not harder to keep solid than B",
+   "asymmetric_conclusion": "A is made out of chocolate and B is made out of metal, so B is not harder to keep solid than A"
+  },
+  "negation_paraphrase_inversion": {
+   "original": "A is made out of chocolate and B is made out of metal, so A is not harder to turn into liquid than B",
+   "asymmetric_premise": "B is made out of chocolate and A is made out of metal, so A is not easier to turn into liquid than B",
+   "asymmetric_conclusion": "A is made out of chocolate and B is made out of metal, so B is not easier to turn into liquid than A"
+  }
+ },
+ "11": {
+  "original": {
+   "original": "A is made out of metal and B is made out of dirt, so A is a better electrical conductor than B",
+   "asymmetric_premise": "B is made out of metal and A is made out of dirt, so A is a worse electrical conductor than B",
+   "asymmetric_conclusion": "A is made out of metal and B is made out of dirt, so B is a worse electrical conductor than A"
+  },
+  "negation": {
+   "original": "A is made out of metal and B is made out of dirt, so A is not a worse electrical conductor than B",
+   "asymmetric_premise": "B is made out of metal and A is made out of dirt, so A is not a better electrical conductor than B",
+   "asymmetric_conclusion": "A is made out of metal and B is made out of dirt, so B is not a better electrical conductor than A"
+  },
+  "antonym": {
+   "original": "A is made out of metal and B is made out of dirt, so A is a worse electrical insulator than B",
+   "asymmetric_premise": "B is made out of metal and A is made out of dirt, so A is a better electrical insulator than B",
+   "asymmetric_conclusion": "A is made out of metal and B is made out of dirt, so B is a better electrical insulator than A"
+  },
+  "paraphrase": {
+   "original": "A is made out of metal and B is made out of dirt, so A is easier to use for electricity transmission than B",
+   "asymmetric_premise": "B is made out of metal and A is made out of dirt, so A is harder to use for electricity transmission than B",
+   "asymmetric_conclusion": "A is made out of metal and B is made out of dirt, so B is harder to use for electricity transmission than A"
+  },
+  "paraphrase_inversion": {
+   "original": "A is made out of metal and B is made out of dirt, so A is worse at stopping electricity than B",
+   "asymmetric_premise": "B is made out of metal and A is made out of dirt, so A is better at stopping electricity than B",
+   "asymmetric_conclusion": "A is made out of metal and B is made out of dirt, so B is better at stopping electricity than A"
+  },
+  "negation_antonym": {
+   "original": "A is made out of metal and B is made out of dirt, so A is not a better electrical insulator than B",
+   "asymmetric_premise": "B is made out of metal and A is made out of dirt, so A is not a worse electrical insulator than B",
+   "asymmetric_conclusion": "A is made out of metal and B is made out of dirt, so B is not a worse electrical insulator than A"
+  },
+  "negation_paraphrase": {
+   "original": "A is made out of metal and B is made out of dirt, so A is not harder to use for electricity transmission than B",
+   "asymmetric_premise": "B is made out of metal and A is made out of dirt, so A is not easier to use for electricity transmission than B",
+   "asymmetric_conclusion": "A is made out of metal and B is made out of dirt, so B is not easier to use for electricity transmission than A"
+  },
+  "negation_paraphrase_inversion": {
+   "original": "A is made out of metal and B is made out of dirt, so A is not better at stopping electricity than B",
+   "asymmetric_premise": "B is made out of metal and A is made out of dirt, so A is not worse at stopping electricity than B",
+   "asymmetric_conclusion": "A is made out of metal and B is made out of dirt, so B is not worse at stopping electricity than A"
+  }
+ },
+ "12": {
+  "original": {
+   "original": "A is made out of stone and B is made out of helium, so A has a harder time flying than B",
+   "asymmetric_premise": "B is made out of stone and A is made out of helium, so A has a easier time flying than B",
+   "asymmetric_conclusion": "A is made out of stone and B is made out of helium, so B has a easier time flying than A"
+  },
+  "negation": {
+   "original": "A is made out of stone and B is made out of helium, so A does not have a easier time flying than B",
+   "asymmetric_premise": "B is made out of stone and A is made out of helium, so A does not have a harder time flying than B",
+   "asymmetric_conclusion": "A is made out of stone and B is made out of helium, so B does not have a harder time flying than A"
+  },
+  "antonym": {
+   "original": "A is made out of stone and B is made out of helium, so A has a easier time staying grounded than B",
+   "asymmetric_premise": "B is made out of stone and A is made out of helium, so A has a harder time staying grounded than B",
+   "asymmetric_conclusion": "A is made out of stone and B is made out of helium, so B has a harder time staying grounded than A"
+  },
+  "paraphrase": {
+   "original": "A is made out of stone and B is made out of helium, so A is able to fly worse than B",
+   "asymmetric_premise": "B is made out of stone and A is made out of helium, so A is able to fly better than B",
+   "asymmetric_conclusion": "A is made out of stone and B is made out of helium, so B is able to fly better than A"
+  },
+  "paraphrase_inversion": {
+   "original": "A is made out of stone and B is made out of helium, so A is easier to keep grounded than B",
+   "asymmetric_premise": "B is made out of stone and A is made out of helium, so A is harder to keep grounded than B",
+   "asymmetric_conclusion": "A is made out of stone and B is made out of helium, so B is harder to keep grounded than A"
+  },
+  "negation_antonym": {
+   "original": "A is made out of stone and B is made out of helium, so A does not have a harder time staying grounded than B",
+   "asymmetric_premise": "B is made out of stone and A is made out of helium, so A does not have a easier time staying grounded than B",
+   "asymmetric_conclusion": "A is made out of stone and B is made out of helium, so B does not have a easier time staying grounded than A"
+  },
+  "negation_paraphrase": {
+   "original": "A is made out of stone and B is made out of helium, so A is not able to fly better than B",
+   "asymmetric_premise": "B is made out of stone and A is made out of helium, so A is not able to fly worse than B",
+   "asymmetric_conclusion": "A is made out of stone and B is made out of helium, so B is not able to fly worse than A"
+  },
+  "negation_paraphrase_inversion": {
+   "original": "A is made out of stone and B is made out of helium, so A is not harder to keep grounded than B",
+   "asymmetric_premise": "B is made out of stone and A is made out of helium, so A is not easier to keep grounded than B",
+   "asymmetric_conclusion": "A is made out of stone and B is made out of helium, so B is not easier to keep grounded than A"
+  }
+ },
+ "13": {
+  "original": {
+   "original": "A is made out of honey and B is made out of water, so A is more viscous than B",
+   "asymmetric_premise": "B is made out of honey and A is made out of water, so A is less viscous than B",
+   "asymmetric_conclusion": "A is made out of honey and B is made out of water, so B is less viscous than A"
+  },
+  "negation": {
+   "original": "A is made out of honey and B is made out of water, so A is not less viscous than B",
+   "asymmetric_premise": "B is made out of honey and A is made out of water, so A is not more viscous than B",
+   "asymmetric_conclusion": "A is made out of honey and B is made out of water, so B is not more viscous than A"
+  },
+  "antonym": {
+   "original": "A is made out of honey and B is made out of water, so A is less free flowing than B",
+   "asymmetric_premise": "B is made out of honey and A is made out of water, so A is more free flowing than B",
+   "asymmetric_conclusion": "A is made out of honey and B is made out of water, so B is more free flowing than A"
+  },
+  "paraphrase": {
+   "original": "A is made out of honey and B is made out of water, so A has more viscosity than B",
+   "asymmetric_premise": "B is made out of honey and A is made out of water, so A has less viscosity than B",
+   "asymmetric_conclusion": "A is made out of honey and B is made out of water, so B has less viscosity than A"
+  },
+  "paraphrase_inversion": {
+   "original": "A is made out of honey and B is made out of water, so A has a harder time flowing out of a bottle than B",
+   "asymmetric_premise": "B is made out of honey and A is made out of water, so A has a easier time flowing out of a bottle than B",
+   "asymmetric_conclusion": "A is made out of honey and B is made out of water, so B has a easier time flowing out of a bottle than A"
+  },
+  "negation_antonym": {
+   "original": "A is made out of honey and B is made out of water, so A is not more free flowing than B",
+   "asymmetric_premise": "B is made out of honey and A is made out of water, so A is not less free flowing than B",
+   "asymmetric_conclusion": "A is made out of honey and B is made out of water, so B is not less free flowing than A"
+  },
+  "negation_paraphrase": {
+   "original": "A is made out of honey and B is made out of water, so A does not have less viscosity than B",
+   "asymmetric_premise": "B is made out of honey and A is made out of water, so A does not have more viscosity than B",
+   "asymmetric_conclusion": "A is made out of honey and B is made out of water, so B does not have more viscosity than A"
+  },
+  "negation_paraphrase_inversion": {
+   "original": "A is made out of honey and B is made out of water, so A does not have a easier time flowing out of a bottle than B",
+   "asymmetric_premise": "B is made out of honey and A is made out of water, so A does not have a harder time flowing out of a bottle than B",
+   "asymmetric_conclusion": "A is made out of honey and B is made out of water, so B does not have a harder time flowing out of a bottle than A"
+  }
+ },
+ "14": {
+  "original": {
+   "original": "A is made out of titanium and B is made out of rubber, so A is less elastic than B",
+   "asymmetric_premise": "B is made out of titanium and A is made out of rubber, so A is more elastic than B",
+   "asymmetric_conclusion": "A is made out of titanium and B is made out of rubber, so B is more elastic than A"
+  },
+  "negation": {
+   "original": "A is made out of titanium and B is made out of rubber, so A is not more elastic than B",
+   "asymmetric_premise": "B is made out of titanium and A is made out of rubber, so A is not less elastic than B",
+   "asymmetric_conclusion": "A is made out of titanium and B is made out of rubber, so B is not less elastic than A"
+  },
+  "antonym": {
+   "original": "A is made out of titanium and B is made out of rubber, so A is more inelastic than B",
+   "asymmetric_premise": "B is made out of titanium and A is made out of rubber, so A is less inelastic than B",
+   "asymmetric_conclusion": "A is made out of titanium and B is made out of rubber, so B is less inelastic than A"
+  },
+  "paraphrase": {
+   "original": "A is made out of titanium and B is made out of rubber, so A is harder to stretch than B",
+   "asymmetric_premise": "B is made out of titanium and A is made out of rubber, so A is easier to stretch than B",
+   "asymmetric_conclusion": "A is made out of titanium and B is made out of rubber, so B is easier to stretch than A"
+  },
+  "paraphrase_inversion": {
+   "original": "A is made out of titanium and B is made out of rubber, so A is better at staying in a fixed shape than B",
+   "asymmetric_premise": "B is made out of titanium and A is made out of rubber, so A is worse at staying in a fixed shape than B",
+   "asymmetric_conclusion": "A is made out of titanium and B is made out of rubber, so B is worse at staying in a fixed shape than A"
+  },
+  "negation_antonym": {
+   "original": "A is made out of titanium and B is made out of rubber, so A is not less inelastic than B",
+   "asymmetric_premise": "B is made out of titanium and A is made out of rubber, so A is not more inelastic than B",
+   "asymmetric_conclusion": "A is made out of titanium and B is made out of rubber, so B is not more inelastic than A"
+  },
+  "negation_paraphrase": {
+   "original": "A is made out of titanium and B is made out of rubber, so A is not easier to stretch than B",
+   "asymmetric_premise": "B is made out of titanium and A is made out of rubber, so A is not harder to stretch than B",
+   "asymmetric_conclusion": "A is made out of titanium and B is made out of rubber, so B is not harder to stretch than A"
+  },
+  "negation_paraphrase_inversion": {
+   "original": "A is made out of titanium and B is made out of rubber, so A is not worse at staying in a fixed shape than B",
+   "asymmetric_premise": "B is made out of titanium and A is made out of rubber, so A is not better at staying in a fixed shape than B",
+   "asymmetric_conclusion": "A is made out of titanium and B is made out of rubber, so B is not better at staying in a fixed shape than A"
+  }
+ },
+ "15": {
+  "original": {
+   "original": "A is made out of water and B is made out of methane, so A is more safe to store than B",
+   "asymmetric_premise": "B is made out of water and A is made out of methane, so A is less safe to store than B",
+   "asymmetric_conclusion": "A is made out of water and B is made out of methane, so B is less safe to store than A"
+  },
+  "negation": {
+   "original": "A is made out of water and B is made out of methane, so A is not less safe to store than B",
+   "asymmetric_premise": "B is made out of water and A is made out of methane, so A is not more safe to store than B",
+   "asymmetric_conclusion": "A is made out of water and B is made out of methane, so B is not more safe to store than A"
+  },
+  "antonym": {
+   "original": "A is made out of water and B is made out of methane, so A is less safe to dispose of than B",
+   "asymmetric_premise": "B is made out of water and A is made out of methane, so A is more safe to dispose of than B",
+   "asymmetric_conclusion": "A is made out of water and B is made out of methane, so B is more safe to dispose of than A"
+  },
+  "paraphrase": {
+   "original": "A is made out of water and B is made out of methane, so A can be handled with more calmness than B",
+   "asymmetric_premise": "B is made out of water and A is made out of methane, so A can be handled with less calmness than B",
+   "asymmetric_conclusion": "A is made out of water and B is made out of methane, so B can be handled with less calmness than A"
+  },
+  "paraphrase_inversion": {
+   "original": "A is made out of water and B is made out of methane, so A poses less risk in storage than B",
+   "asymmetric_premise": "B is made out of water and A is made out of methane, so A poses more risk in storage than B",
+   "asymmetric_conclusion": "A is made out of water and B is made out of methane, so B poses more risk in storage than A"
+  },
+  "negation_antonym": {
+   "original": "A is made out of water and B is made out of methane, so A is not more safe to dispose of than B",
+   "asymmetric_premise": "B is made out of water and A is made out of methane, so A is not less safe to dispose of than B",
+   "asymmetric_conclusion": "A is made out of water and B is made out of methane, so B is not less safe to dispose of than A"
+  },
+  "negation_paraphrase": {
+   "original": "A is made out of water and B is made out of methane, so A can not be handled with less calmness than B",
+   "asymmetric_premise": "B is made out of water and A is made out of methane, so A can not be handled with more calmness than B",
+   "asymmetric_conclusion": "A is made out of water and B is made out of methane, so B can not be handled with more calmness than A"
+  },
+  "negation_paraphrase_inversion": {
+   "original": "A is made out of water and B is made out of methane, so A does not pose more risk in storage than B",
+   "asymmetric_premise": "B is made out of water and A is made out of methane, so A does not pose less risk in storage than B",
+   "asymmetric_conclusion": "A is made out of water and B is made out of methane, so B does not pose less risk in storage than A"
+  }
+ },
+ "16": {
+  "original": {
+   "original": "A is made out of mercury and B is made out of oxygen, so A is worse for your health to consume than B",
+   "asymmetric_premise": "B is made out of mercury and A is made out of oxygen, so A is better for your health to consume than B",
+   "asymmetric_conclusion": "A is made out of mercury and B is made out of oxygen, so B is better for your health to consume than A"
+  },
+  "negation": {
+   "original": "A is made out of mercury and B is made out of oxygen, so A is not better for your health to consume than B",
+   "asymmetric_premise": "B is made out of mercury and A is made out of oxygen, so A is not worse for your health to consume than B",
+   "asymmetric_conclusion": "A is made out of mercury and B is made out of oxygen, so B is not worse for your health to consume than A"
+  },
+  "antonym": {
+   "original": "A is made out of mercury and B is made out of oxygen, so A is better for your health to avoid than B",
+   "asymmetric_premise": "B is made out of mercury and A is made out of oxygen, so A is worse for your health to avoid than B",
+   "asymmetric_conclusion": "A is made out of mercury and B is made out of oxygen, so B is worse for your health to avoid than A"
+  },
+  "paraphrase": {
+   "original": "A is made out of mercury and B is made out of oxygen, so A is worse to ingest than B",
+   "asymmetric_premise": "B is made out of mercury and A is made out of oxygen, so A is better to ingest than B",
+   "asymmetric_conclusion": "A is made out of mercury and B is made out of oxygen, so B is better to ingest than A"
+  },
+  "paraphrase_inversion": {
+   "original": "A is made out of mercury and B is made out of oxygen, so A is better to stay away from than B",
+   "asymmetric_premise": "B is made out of mercury and A is made out of oxygen, so A is worse to stay away from than B",
+   "asymmetric_conclusion": "A is made out of mercury and B is made out of oxygen, so B is worse to stay away from than A"
+  },
+  "negation_antonym": {
+   "original": "A is made out of mercury and B is made out of oxygen, so A is not worse for your health to avoid than B",
+   "asymmetric_premise": "B is made out of mercury and A is made out of oxygen, so A is not better for your health to avoid than B",
+   "asymmetric_conclusion": "A is made out of mercury and B is made out of oxygen, so B is not better for your health to avoid than A"
+  },
+  "negation_paraphrase": {
+   "original": "A is made out of mercury and B is made out of oxygen, so A is not better to ingest than B",
+   "asymmetric_premise": "B is made out of mercury and A is made out of oxygen, so A is not worse to ingest than B",
+   "asymmetric_conclusion": "A is made out of mercury and B is made out of oxygen, so B is not worse to ingest than A"
+  },
+  "negation_paraphrase_inversion": {
+   "original": "A is made out of mercury and B is made out of oxygen, so A is not worse to stay away from than B",
+   "asymmetric_premise": "B is made out of mercury and A is made out of oxygen, so A is not better to stay away from than B",
+   "asymmetric_conclusion": "A is made out of mercury and B is made out of oxygen, so B is not better to stay away from than A"
+  }
+ },
+ "17": {
+  "original": {
+   "original": "A is made out of wood and B is made out of fur, so A will more easily expand when heated than B",
+   "asymmetric_premise": "B is made out of wood and A is made out of fur, so A will less easily expand when heated than B",
+   "asymmetric_conclusion": "A is made out of wood and B is made out of fur, so B will less easily expand when heated than A"
+  },
+  "negation": {
+   "original": "A is made out of wood and B is made out of fur, so A will not less easily expand when heated than B",
+   "asymmetric_premise": "B is made out of wood and A is made out of fur, so A will not more easily expand when heated than B",
+   "asymmetric_conclusion": "A is made out of wood and B is made out of fur, so B will not more easily expand when heated than A"
+  },
+  "antonym": {
+   "original": "A is made out of wood and B is made out of fur, so A will less easily maintain size when heated than B",
+   "asymmetric_premise": "B is made out of wood and A is made out of fur, so A will more easily maintain size when heated than B",
+   "asymmetric_conclusion": "A is made out of wood and B is made out of fur, so B will more easily maintain size when heated than A"
+  },
+  "paraphrase": {
+   "original": "A is made out of wood and B is made out of fur, so A is easier to expand with heat than B",
+   "asymmetric_premise": "B is made out of wood and A is made out of fur, so A is harder to expand with heat than B",
+   "asymmetric_conclusion": "A is made out of wood and B is made out of fur, so B is harder to expand with heat than A"
+  },
+  "paraphrase_inversion": {
+   "original": "A is made out of wood and B is made out of fur, so A is worse at staying the same shape when heated than B",
+   "asymmetric_premise": "B is made out of wood and A is made out of fur, so A is better at staying the same shape when heated than B",
+   "asymmetric_conclusion": "A is made out of wood and B is made out of fur, so B is better at staying the same shape when heated than A"
+  },
+  "negation_antonym": {
+   "original": "A is made out of wood and B is made out of fur, so A will not more easily maintain size when heated than B",
+   "asymmetric_premise": "B is made out of wood and A is made out of fur, so A will not less easily maintain size when heated than B",
+   "asymmetric_conclusion": "A is made out of wood and B is made out of fur, so B will not less easily maintain size when heated than A"
+  },
+  "negation_paraphrase": {
+   "original": "A is made out of wood and B is made out of fur, so A is not harder to expand with heat than B",
+   "asymmetric_premise": "B is made out of wood and A is made out of fur, so A is not easier to expand with heat than B",
+   "asymmetric_conclusion": "A is made out of wood and B is made out of fur, so B is not easier to expand with heat than A"
+  },
+  "negation_paraphrase_inversion": {
+   "original": "A is made out of wood and B is made out of fur, so A is not better at staying the same shape when heated than B",
+   "asymmetric_premise": "B is made out of wood and A is made out of fur, so A is not worse at staying the same shape when heated than B",
+   "asymmetric_conclusion": "A is made out of wood and B is made out of fur, so B is not worse at staying the same shape when heated than A"
+  }
+ },
+ "18": {
+  "original": {
+   "original": "A is made out of concrete and B is made out of wood, so A is less penetrable than B",
+   "asymmetric_premise": "B is made out of concrete and A is made out of wood, so A is more penetrable than B",
+   "asymmetric_conclusion": "A is made out of concrete and B is made out of wood, so B is more penetrable than A"
+  },
+  "negation": {
+   "original": "A is made out of concrete and B is made out of wood, so A is not more penetrable than B",
+   "asymmetric_premise": "B is made out of concrete and A is made out of wood, so A is not less penetrable than B",
+   "asymmetric_conclusion": "A is made out of concrete and B is made out of wood, so B is not less penetrable than A"
+  },
+  "antonym": {
+   "original": "A is made out of concrete and B is made out of wood, so A is more tough than B",
+   "asymmetric_premise": "B is made out of concrete and A is made out of wood, so A is less tough than B",
+   "asymmetric_conclusion": "A is made out of concrete and B is made out of wood, so B is less tough than A"
+  },
+  "paraphrase": {
+   "original": "A is made out of concrete and B is made out of wood, so A is harder to make a hole in than B",
+   "asymmetric_premise": "B is made out of concrete and A is made out of wood, so A is easier to make a hole in than B",
+   "asymmetric_conclusion": "A is made out of concrete and B is made out of wood, so B is easier to make a hole in than A"
+  },
+  "paraphrase_inversion": {
+   "original": "A is made out of concrete and B is made out of wood, so A is better to store valuables in than B",
+   "asymmetric_premise": "B is made out of concrete and A is made out of wood, so A is worse to store valuables in than B",
+   "asymmetric_conclusion": "A is made out of concrete and B is made out of wood, so B is worse to store valuables in than A"
+  },
+  "negation_antonym": {
+   "original": "A is made out of concrete and B is made out of wood, so A is not less tough than B",
+   "asymmetric_premise": "B is made out of concrete and A is made out of wood, so A is not more tough than B",
+   "asymmetric_conclusion": "A is made out of concrete and B is made out of wood, so B is not more tough than A"
+  },
+  "negation_paraphrase": {
+   "original": "A is made out of concrete and B is made out of wood, so A is not easier to make a hole in than B",
+   "asymmetric_premise": "B is made out of concrete and A is made out of wood, so A is not harder to make a hole in than B",
+   "asymmetric_conclusion": "A is made out of concrete and B is made out of wood, so B is not harder to make a hole in than A"
+  },
+  "negation_paraphrase_inversion": {
+   "original": "A is made out of concrete and B is made out of wood, so A is not worse to store valuables in than B",
+   "asymmetric_premise": "B is made out of concrete and A is made out of wood, so A is not better to store valuables in than B",
+   "asymmetric_conclusion": "A is made out of concrete and B is made out of wood, so B is not better to store valuables in than A"
+  }
+ },
+ "19": {
+  "original": {
+   "original": "A is made out of glass and B is made out of tar, so A will reflect light better than B",
+   "asymmetric_premise": "B is made out of glass and A is made out of tar, so A will reflect light worse than B",
+   "asymmetric_conclusion": "A is made out of glass and B is made out of tar, so B will reflect light worse than A"
+  },
+  "negation": {
+   "original": "A is made out of glass and B is made out of tar, so A will not reflect light worse than B",
+   "asymmetric_premise": "B is made out of glass and A is made out of tar, so A will not reflect light better than B",
+   "asymmetric_conclusion": "A is made out of glass and B is made out of tar, so B will not reflect light better than A"
+  },
+  "antonym": {
+   "original": "A is made out of glass and B is made out of tar, so A will absorb light worse than B",
+   "asymmetric_premise": "B is made out of glass and A is made out of tar, so A will absorb light better than B",
+   "asymmetric_conclusion": "A is made out of glass and B is made out of tar, so B will absorb light better than A"
+  },
+  "paraphrase": {
+   "original": "A is made out of glass and B is made out of tar, so A has an easier time reflecting light than B",
+   "asymmetric_premise": "B is made out of glass and A is made out of tar, so A has an harder time reflecting light than B",
+   "asymmetric_conclusion": "A is made out of glass and B is made out of tar, so B has an harder time reflecting light than A"
+  },
+  "paraphrase_inversion": {
+   "original": "A is made out of glass and B is made out of tar, so A has a harder time capturing light than B",
+   "asymmetric_premise": "B is made out of glass and A is made out of tar, so A has a easier time capturing light than B",
+   "asymmetric_conclusion": "A is made out of glass and B is made out of tar, so B has a easier time capturing light than A"
+  },
+  "negation_antonym": {
+   "original": "A is made out of glass and B is made out of tar, so A will not absorb light better than B",
+   "asymmetric_premise": "B is made out of glass and A is made out of tar, so A will not absorb light worse than B",
+   "asymmetric_conclusion": "A is made out of glass and B is made out of tar, so B will not absorb light worse than A"
+  },
+  "negation_paraphrase": {
+   "original": "A is made out of glass and B is made out of tar, so A does not have an harder time reflecting light than B",
+   "asymmetric_premise": "B is made out of glass and A is made out of tar, so A does not have an easier time reflecting light than B",
+   "asymmetric_conclusion": "A is made out of glass and B is made out of tar, so B does not have an easier time reflecting light than A"
+  },
+  "negation_paraphrase_inversion": {
+   "original": "A is made out of glass and B is made out of tar, so A does not have a easier time capturing light than B",
+   "asymmetric_premise": "B is made out of glass and A is made out of tar, so A does not have a harder time capturing light than B",
+   "asymmetric_conclusion": "A is made out of glass and B is made out of tar, so B does not have a harder time capturing light than A"
+  }
+ }
+}

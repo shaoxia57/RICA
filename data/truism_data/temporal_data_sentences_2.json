@@ -1,0 +1,202 @@
+{
+ "0": {
+  "original": "A was eating dinner, so A was hungry before eating dinner",
+  "negation": "A was eating dinner, so A wasn't hungry after eating dinner",
+  "antonym": "A was eating dinner, so A was full after eating dinner",
+  "paraphrase": "A was eating dinner, so A was starving of food before eating dinner",
+  "paraphrase_inversion": "A was eating dinner, so A wasn't stuffed with food before dinner",
+  "negation_antonym": "A was eating dinner, so A wasn't full before eating dinner",
+  "negation_paraphrase": "A was eating dinner, so A wasn't starving of food after eating dinner",
+  "negation_paraphrase_inversion": "A was eating dinner, so A was stuffed with food after dinner"
+ },
+ "1": {
+  "original": "A turned on the heater, so A was cold before turning on the heater",
+  "negation": "A turned on the heater, so A wasn't cold after turning on the heater",
+  "antonym": "A turned on the heater, so A was warm after turning on the heater",
+  "paraphrase": "A turned on the heater, so A was at an uncomfortable temperature before turning on the heater",
+  "paraphrase_inversion": "A turned on the heater, so A wasn't at a comfortable temperature before turning on the heater",
+  "negation_antonym": "A turned on the heater, so A wasn't warm before turning on the heater",
+  "negation_paraphrase": "A turned on the heater, so A wasn't at an uncomfortable temperature after turning on the heater",
+  "negation_paraphrase_inversion": "A turned on the heater, so A was at a comfortable temperature after turning on the heater"
+ },
+ "2": {
+  "original": "A got divorced, so A was married before getting divorced",
+  "negation": "A got divorced, so A wasn't married after getting divorced",
+  "antonym": "A got divorced, so A was single after getting divorced",
+  "paraphrase": "A got divorced, so A had a spouse before getting divorced",
+  "paraphrase_inversion": "A got divorced, so A wasn't alone before getting divorced",
+  "negation_antonym": "A got divorced, so A wasn't single before getting divorced",
+  "negation_paraphrase": "A got divorced, so A did not have a spouse after getting divorced",
+  "negation_paraphrase_inversion": "A got divorced, so A was alone after getting divorced"
+ },
+ "3": {
+  "original": "A was sick, so A felt better after recovering from being sick",
+  "negation": "A was sick, so A did not feel better before recovering from being sick",
+  "antonym": "A was sick, so A felt worse before recovering from being sick",
+  "paraphrase": "A was sick, so A was healthier after recovering from being sick",
+  "paraphrase_inversion": "A was sick, so A wasn't feeling bad after recovering from being sick",
+  "negation_antonym": "A was sick, so A did not feel worse after recovering from being sick",
+  "negation_paraphrase": "A was sick, so A wasn't healthier before recovering from being sick",
+  "negation_paraphrase_inversion": "A was sick, so A was feeling bad before recovering from being sick"
+ },
+ "4": {
+  "original": "A was sleeping, so A felt awake after sleeping",
+  "negation": "A was sleeping, so A did not feel awake before sleeping",
+  "antonym": "A was sleeping, so A felt sleepy before sleeping",
+  "paraphrase": "A was sleeping, so A had energy after sleeping",
+  "paraphrase_inversion": "A was sleeping, so A wasn't lacking energy after sleeping",
+  "negation_antonym": "A was sleeping, so A did not feel sleepy after sleeping",
+  "negation_paraphrase": "A was sleeping, so A did not have energy before sleeping",
+  "negation_paraphrase_inversion": "A was sleeping, so A was lacking energy before sleeping"
+ },
+ "5": {
+  "original": "A died, so A was alive before dying",
+  "negation": "A died, so A wasn't alive after dying",
+  "antonym": "A died, so A was dead after dying",
+  "paraphrase": "A died, so A was living in the world before passing away",
+  "paraphrase_inversion": "A died, so A wasn't deceased before passing away",
+  "negation_antonym": "A died, so A wasn't dead before dying",
+  "negation_paraphrase": "A died, so A wasn't living in the world after passing away",
+  "negation_paraphrase_inversion": "A died, so A was deceased after passing away"
+ },
+ "6": {
+  "original": "A was doing laundry, so A's clothes were dirty before doing laundry",
+  "negation": "A was doing laundry, so A's clothes weren't dirty after doing laundry",
+  "antonym": "A was doing laundry, so A's clothes were clean after doing laundry",
+  "paraphrase": "A was doing laundry, so A's clothes were unwashed before doing laundry",
+  "paraphrase_inversion": "A was doing laundry, so A's clothes were washed after doing laundry",
+  "negation_antonym": "A was doing laundry, so A's clothes weren't clean before doing laundry",
+  "negation_paraphrase": "A was doing laundry, so A's clothes weren't unwashed after doing laundry",
+  "negation_paraphrase_inversion": "A was doing laundry, so A's clothes weren't washed before doing laundry"
+ },
+ "7": {
+  "original": "A cut their hair, so A had short hair after cutting their hair",
+  "negation": "A cut their hair, so A did not have short hair before cutting their hair",
+  "antonym": "A cut their hair, so A had long hair before cutting their hair",
+  "paraphrase": "A cut their hair, so A had reduced hair length after cutting their hair",
+  "paraphrase_inversion": "A cut their hair, so A had increased hair length before cutting their hair",
+  "negation_antonym": "A cut their hair, so A did not have long hair after cutting their hair",
+  "negation_paraphrase": "A cut their hair, so A did not have reduced hair length before cutting their hair",
+  "negation_paraphrase_inversion": "A cut their hair, so A did not have increased hair length after cutting their hair"
+ },
+ "8": {
+  "original": "A gave birth, so A was pregnant before giving birth",
+  "negation": "A gave birth, so A wasn't pregnant after giving birth",
+  "antonym": "A gave birth, so A was not pregnant after giving birth",
+  "paraphrase": "A gave birth, so A was expecting a baby before giving birth",
+  "paraphrase_inversion": "A gave birth, so A wasn't impregnated with a baby after giving birth",
+  "negation_antonym": "A gave birth, so A wasn't not pregnant before giving birth",
+  "negation_paraphrase": "A gave birth, so A wasn't expecting a baby after giving birth",
+  "negation_paraphrase_inversion": "A gave birth, so A was impregnated with a baby before giving birth"
+ },
+ "9": {
+  "original": "A turned on the lights, so it was dark before A turned on the lights",
+  "negation": "A turned on the lights, so it wasn't dark after A turned on the lights",
+  "antonym": "A turned on the lights, so it was bright after A turned on the lights",
+  "paraphrase": "A turned on the lights, so it was poorly lit before A turned on the lights",
+  "paraphrase_inversion": "A turned on the lights, so it wasn't poorly lit after A turned on the lights",
+  "negation_antonym": "A turned on the lights, so it wasn't bright before A turned on the lights",
+  "negation_paraphrase": "A turned on the lights, so it wasn't poorly lit after A turned on the lights",
+  "negation_paraphrase_inversion": "A turned on the lights, so it was poorly lit before A turned on the lights"
+ },
+ "10": {
+  "original": "A stepped on the car brakes, so the car was moving slow after A stepped on the car brakes",
+  "negation": "A stepped on the car brakes, so the car wasn't moving slow before A stepped on the car brakes",
+  "antonym": "A stepped on the car brakes, so the car was moving slow before A stepped on the car brakes",
+  "paraphrase": "A stepped on the car brakes, so the car was travelling at a lower speed after A hit the car brakes",
+  "paraphrase_inversion": "A stepped on the car brakes, so the car was travelling at a higher speed before A hit the car brakes",
+  "negation_antonym": "A stepped on the car brakes, so the car wasn't moving slow after A stepped on the car brakes",
+  "negation_paraphrase": "A stepped on the car brakes, so the car wasn't travelling at a lower speed before A hit the car brakes",
+  "negation_paraphrase_inversion": "A stepped on the car brakes, so the car wasn't travelling at a higher speed after A hit the car brakes"
+ },
+ "11": {
+  "original": "A entered the building, so A was outside before entering the building",
+  "negation": "A entered the building, so A wasn't outside after entering the building",
+  "antonym": "A entered the building, so A was inside after entering the building",
+  "paraphrase": "A entered the building, so A was in front of the building before entering",
+  "paraphrase_inversion": "A entered the building, so A was indoors after entering the building",
+  "negation_antonym": "A entered the building, so A wasn't inside before entering the building",
+  "negation_paraphrase": "A entered the building, so A wasn't in front of the building after entering",
+  "negation_paraphrase_inversion": "A entered the building, so A wasn't indoors before entering the building"
+ },
+ "12": {
+  "original": "A lost weight, so A was lighter after losing weight",
+  "negation": "A lost weight, so A wasn't lighter before losing weight",
+  "antonym": "A lost weight, so A was heavier before losing weight",
+  "paraphrase": "A lost weight, so A was skinnier after losing weight",
+  "paraphrase_inversion": "A lost weight, so A was fat before losing weight",
+  "negation_antonym": "A lost weight, so A wasn't heavier after losing weight",
+  "negation_paraphrase": "A lost weight, so A wasn't skinnier before losing weight",
+  "negation_paraphrase_inversion": "A lost weight, so A wasn't fat after losing weight"
+ },
+ "13": {
+  "original": "A was sanding the rock, so the rock was smooth after sanding it",
+  "negation": "A was sanding the rock, so the rock wasn't smooth before sanding it",
+  "antonym": "A was sanding the rock, so the rock was rough before sanding it",
+  "paraphrase": "A was sanding the rock, so the rock had even surfaces after sanding it",
+  "paraphrase_inversion": "A was sanding the rock, so the rock was uneven before sanding it",
+  "negation_antonym": "A was sanding the rock, so the rock wasn't rough after sanding it",
+  "negation_paraphrase": "A was sanding the rock, so the rock did not have even surfaces before sanding it",
+  "negation_paraphrase_inversion": "A was sanding the rock, so the rock wasn't uneven after sanding it"
+ },
+ "14": {
+  "original": "A went underground, so A was above the ground before going underground",
+  "negation": "A went underground, so A wasn't above the ground after going underground",
+  "antonym": "A went underground, so A was below the ground after going underground",
+  "paraphrase": "A went underground, so A was on the surface before going underground",
+  "paraphrase_inversion": "A went underground, so A was underneath the surface after going underground",
+  "negation_antonym": "A went underground, so A wasn't below the ground before going underground",
+  "negation_paraphrase": "A went underground, so A wasn't on the surface after going underground",
+  "negation_paraphrase_inversion": "A went underground, so A wasn't underneath the surface before going underground"
+ },
+ "15": {
+  "original": "A went into the shower, so A was wet after going into the shower",
+  "negation": "A went into the shower, so A wasn't wet before going into the shower",
+  "antonym": "A went into the shower, so A was dry before going into the shower",
+  "paraphrase": "A went into the shower, so A was soaked with water after going into the shower",
+  "paraphrase_inversion": "A went into the shower, so A wasn't drenched with water before going into the shower",
+  "negation_antonym": "A went into the shower, so A wasn't dry after going into the shower",
+  "negation_paraphrase": "A went into the shower, so A wasn't soaked with water before going into the shower",
+  "negation_paraphrase_inversion": "A went into the shower, so A was drenched with water after going into the shower"
+ },
+ "16": {
+  "original": "A poured a cup of water, so the cup was empty before A poured water into it",
+  "negation": "A poured a cup of water, so the cup wasn't empty after A poured water into it",
+  "antonym": "A poured a cup of water, so the cup was full after A poured water into it",
+  "paraphrase": "A poured a cup of water, so the cup didn't contain water before A poured water into it",
+  "paraphrase_inversion": "A poured a cup of water, so the cup was filled with water after A poured water into it",
+  "negation_antonym": "A poured a cup of water, so the cup wasn't full before A poured water into it",
+  "negation_paraphrase": "A poured a cup of water, so the cup did contain water after A poured water into it",
+  "negation_paraphrase_inversion": "A poured a cup of water, so the cup wasn't filled with water before A poured water into it"
+ },
+ "17": {
+  "original": "A turned off the alarm clock, so the alarm clock was loud before A turned it off",
+  "negation": "A turned off the alarm clock, so the alarm clock wasn't loud after A turned it off",
+  "antonym": "A turned off the alarm clock, so the alarm clock was silent after A turned it off",
+  "paraphrase": "A turned off the alarm clock, so the alarm clock was making noises before A turned it off",
+  "paraphrase_inversion": "A turned off the alarm clock, so the alarm clock was quiet after A turned it off",
+  "negation_antonym": "A turned off the alarm clock, so the alarm clock wasn't silent before A turned it off",
+  "negation_paraphrase": "A turned off the alarm clock, so the alarm clock wasn't making noises after A turned it off",
+  "negation_paraphrase_inversion": "A turned off the alarm clock, so the alarm clock wasn't quiet before A turned it off"
+ },
+ "18": {
+  "original": "A unlocked the chest, so the chest was locked before A unlocked it",
+  "negation": "A unlocked the chest, so the chest wasn't locked after A unlocked it",
+  "antonym": "A unlocked the chest, so the chest was unlocked after A ununlocked it",
+  "paraphrase": "A unlocked the chest, so the chest couldn't be opened before A unlocked it",
+  "paraphrase_inversion": "A unlocked the chest, so the chest was accessible after A unlocked it",
+  "negation_antonym": "A unlocked the chest, so the chest wasn't unlocked before A ununlocked it",
+  "negation_paraphrase": "A unlocked the chest, so the chest could be opened after A unlocked it",
+  "negation_paraphrase_inversion": "A unlocked the chest, so the chest wasn't accessible before A unlocked it"
+ },
+ "19": {
+  "original": "A grew up, so A was younger before growing up",
+  "negation": "A grew up, so A wasn't younger after growing up",
+  "antonym": "A grew up, so A was older after growing up",
+  "paraphrase": "A grew up, so A was at a smaller age before growing up",
+  "paraphrase_inversion": "A grew up, so A was at an larger age after growing up",
+  "negation_antonym": "A grew up, so A wasn't older before growing up",
+  "negation_paraphrase": "A grew up, so A wasn't at a smaller age after growing up",
+  "negation_paraphrase_inversion": "A grew up, so A wasn't at an larger age before growing up"
+ }
+}

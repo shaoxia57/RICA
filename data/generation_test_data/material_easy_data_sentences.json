@@ -1,0 +1,162 @@
+{
+ "0-original-original": {
+  "correct": "A is made out of glass, B is made out of stone, and glass is more transparent than stone, so A is more transparent than B",
+  "incorrect": "A is made out of glass, B is made out of stone, and glass is more transparent than stone, so A is less transparent than B"
+ },
+ "0-negation-original": {
+  "correct": "A is made out of glass, B is made out of stone, and glass is more transparent than stone, so A is not less transparent than B",
+  "incorrect": "A is made out of glass, B is made out of stone, and glass is more transparent than stone, so A is not more transparent than B"
+ },
+ "1-original-original": {
+  "correct": "A is made out of cotton, B is made out of glass, and cotton is less sharp than glass, so A is less sharp than B",
+  "incorrect": "A is made out of cotton, B is made out of glass, and cotton is less sharp than glass, so A is more sharp than B"
+ },
+ "1-negation-original": {
+  "correct": "A is made out of cotton, B is made out of glass, and cotton is less sharp than glass, so A is not more sharp than B",
+  "incorrect": "A is made out of cotton, B is made out of glass, and cotton is less sharp than glass, so A is not less sharp than B"
+ },
+ "2-original-original": {
+  "correct": "A is made out of concrete, B is made out of paper, and concrete should be more heavy than paper, so A should be more heavy than B",
+  "incorrect": "A is made out of concrete, B is made out of paper, and concrete should be more heavy than paper, so A should be less heavy than B"
+ },
+ "2-negation-original": {
+  "correct": "A is made out of concrete, B is made out of paper, and concrete should be more heavy than paper, so A should not be less heavy than B",
+  "incorrect": "A is made out of concrete, B is made out of paper, and concrete should be more heavy than paper, so A should not be more heavy than B"
+ },
+ "3-original-original": {
+  "correct": "A is made out of metal, B is made out of rubber, and metal should float worse than rubber, so A should float worse than B",
+  "incorrect": "A is made out of metal, B is made out of rubber, and metal should float worse than rubber, so A should float better than B"
+ },
+ "3-negation-original": {
+  "correct": "A is made out of metal, B is made out of rubber, and metal should float worse than rubber, so A should not float better than B",
+  "incorrect": "A is made out of metal, B is made out of rubber, and metal should float worse than rubber, so A should not float worse than B"
+ },
+ "4-original-original": {
+  "correct": "A is made out of glass, B is made out of copper, and glass is more fragile than copper, so A is more fragile than B",
+  "incorrect": "A is made out of glass, B is made out of copper, and glass is more fragile than copper, so A is less fragile than B"
+ },
+ "4-negation-original": {
+  "correct": "A is made out of glass, B is made out of copper, and glass is more fragile than copper, so A is not less fragile than B",
+  "incorrect": "A is made out of glass, B is made out of copper, and glass is more fragile than copper, so A is not more fragile than B"
+ },
+ "5-original-original": {
+  "correct": "A is made out of steel, B is made out of wool, and steel is less soft than wool, so A is less soft than B",
+  "incorrect": "A is made out of steel, B is made out of wool, and steel is less soft than wool, so A is more soft than B"
+ },
+ "5-negation-original": {
+  "correct": "A is made out of steel, B is made out of wool, and steel is less soft than wool, so A is not more soft than B",
+  "incorrect": "A is made out of steel, B is made out of wool, and steel is less soft than wool, so A is not less soft than B"
+ },
+ "6-original-original": {
+  "correct": "A is made out of wood, B is made out of glass, and wood is more combustible than glass, so A is more combustible than B",
+  "incorrect": "A is made out of wood, B is made out of glass, and wood is more combustible than glass, so A is less combustible than B"
+ },
+ "6-negation-original": {
+  "correct": "A is made out of wood, B is made out of glass, and wood is more combustible than glass, so A is not less combustible than B",
+  "incorrect": "A is made out of wood, B is made out of glass, and wood is more combustible than glass, so A is not more combustible than B"
+ },
+ "7-original-original": {
+  "correct": "A is made out of sponge, B is made out of nylon, and sponge is worse for water resistance than nylon, so A is worse for water resistance than B",
+  "incorrect": "A is made out of sponge, B is made out of nylon, and sponge is worse for water resistance than nylon, so A is better for water resistance than B"
+ },
+ "7-negation-original": {
+  "correct": "A is made out of sponge, B is made out of nylon, and sponge is worse for water resistance than nylon, so A is not better for water resistance than B",
+  "incorrect": "A is made out of sponge, B is made out of nylon, and sponge is worse for water resistance than nylon, so A is not worse for water resistance than B"
+ },
+ "8-original-original": {
+  "correct": "A is made out of copper, B is made out of concrete, and copper is more ductile than concrete, so A is more ductile than B",
+  "incorrect": "A is made out of copper, B is made out of concrete, and copper is more ductile than concrete, so A is less ductile than B"
+ },
+ "8-negation-original": {
+  "correct": "A is made out of copper, B is made out of concrete, and copper is more ductile than concrete, so A is not less ductile than B",
+  "incorrect": "A is made out of copper, B is made out of concrete, and copper is more ductile than concrete, so A is not more ductile than B"
+ },
+ "9-original-original": {
+  "correct": "A is made out of metal, B is made out of cloth, and metal is less foldable than cloth, so A is less foldable than B",
+  "incorrect": "A is made out of metal, B is made out of cloth, and metal is less foldable than cloth, so A is more foldable than B"
+ },
+ "9-negation-original": {
+  "correct": "A is made out of metal, B is made out of cloth, and metal is less foldable than cloth, so A is not more foldable than B",
+  "incorrect": "A is made out of metal, B is made out of cloth, and metal is less foldable than cloth, so A is not less foldable than B"
+ },
+ "10-original-original": {
+  "correct": "A is made out of chocolate, B is made out of metal, and chocolate is harder to keep frozen than metal, so A is harder to keep frozen than B",
+  "incorrect": "A is made out of chocolate, B is made out of metal, and chocolate is harder to keep frozen than metal, so A is easier to keep frozen than B"
+ },
+ "10-negation-original": {
+  "correct": "A is made out of chocolate, B is made out of metal, and chocolate is harder to keep frozen than metal, so A is not easier to keep frozen than B",
+  "incorrect": "A is made out of chocolate, B is made out of metal, and chocolate is harder to keep frozen than metal, so A is not harder to keep frozen than B"
+ },
+ "11-original-original": {
+  "correct": "A is made out of metal, B is made out of dirt, and metal is a better electrical conductor than dirt, so A is a better electrical conductor than B",
+  "incorrect": "A is made out of metal, B is made out of dirt, and metal is a better electrical conductor than dirt, so A is a worse electrical conductor than B"
+ },
+ "11-negation-original": {
+  "correct": "A is made out of metal, B is made out of dirt, and metal is a better electrical conductor than dirt, so A is not a worse electrical conductor than B",
+  "incorrect": "A is made out of metal, B is made out of dirt, and metal is a better electrical conductor than dirt, so A is not a better electrical conductor than B"
+ },
+ "12-original-original": {
+  "correct": "A is made out of stone, B is made out of helium, and stone has a harder time flying than helium, so A has a harder time flying than B",
+  "incorrect": "A is made out of stone, B is made out of helium, and stone has a harder time flying than helium, so A has a easier time flying than B"
+ },
+ "12-negation-original": {
+  "correct": "A is made out of stone, B is made out of helium, and stone has a harder time flying than helium, so A does not have a easier time flying than B",
+  "incorrect": "A is made out of stone, B is made out of helium, and stone has a harder time flying than helium, so A does not have a harder time flying than B"
+ },
+ "13-original-original": {
+  "correct": "A is made out of honey, B is made out of water, and honey is more viscous than water, so A is more viscous than B",
+  "incorrect": "A is made out of honey, B is made out of water, and honey is more viscous than water, so A is less viscous than B"
+ },
+ "13-negation-original": {
+  "correct": "A is made out of honey, B is made out of water, and honey is more viscous than water, so A is not less viscous than B",
+  "incorrect": "A is made out of honey, B is made out of water, and honey is more viscous than water, so A is not more viscous than B"
+ },
+ "14-original-original": {
+  "correct": "A is made out of titanium, B is made out of rubber, and titanium is less elastic than rubber, so A is less elastic than B",
+  "incorrect": "A is made out of titanium, B is made out of rubber, and titanium is less elastic than rubber, so A is more elastic than B"
+ },
+ "14-negation-original": {
+  "correct": "A is made out of titanium, B is made out of rubber, and titanium is less elastic than rubber, so A is not more elastic than B",
+  "incorrect": "A is made out of titanium, B is made out of rubber, and titanium is less elastic than rubber, so A is not less elastic than B"
+ },
+ "15-original-original": {
+  "correct": "A is made out of water, B is made out of methane, and water is more safe to store than methane, so A is more safe to store than B",
+  "incorrect": "A is made out of water, B is made out of methane, and water is more safe to store than methane, so A is less safe to store than B"
+ },
+ "15-negation-original": {
+  "correct": "A is made out of water, B is made out of methane, and water is more safe to store than methane, so A is not less safe to store than B",
+  "incorrect": "A is made out of water, B is made out of methane, and water is more safe to store than methane, so A is not more safe to store than B"
+ },
+ "16-original-original": {
+  "correct": "A is made out of mercury, B is made out of oxygen, and mercury is worse for your health to consume than oxygen, so A is worse for your health to consume than B",
+  "incorrect": "A is made out of mercury, B is made out of oxygen, and mercury is worse for your health to consume than oxygen, so A is better for your health to consume than B"
+ },
+ "16-negation-original": {
+  "correct": "A is made out of mercury, B is made out of oxygen, and mercury is worse for your health to consume than oxygen, so A is not better for your health to consume than B",
+  "incorrect": "A is made out of mercury, B is made out of oxygen, and mercury is worse for your health to consume than oxygen, so A is not worse for your health to consume than B"
+ },
+ "17-original-original": {
+  "correct": "A is made out of wood, B is made out of fur, and wood will more easily expand when heated than fur, so A will more easily expand when heated than B",
+  "incorrect": "A is made out of wood, B is made out of fur, and wood will more easily expand when heated than fur, so A will less easily expand when heated than B"
+ },
+ "17-negation-original": {
+  "correct": "A is made out of wood, B is made out of fur, and wood will more easily expand when heated than fur, so A will not less easily expand when heated than B",
+  "incorrect": "A is made out of wood, B is made out of fur, and wood will more easily expand when heated than fur, so A will not more easily expand when heated than B"
+ },
+ "18-original-original": {
+  "correct": "A is made out of concrete, B is made out of wood, and concrete is less penetrable than wood, so A is less penetrable than B",
+  "incorrect": "A is made out of concrete, B is made out of wood, and concrete is less penetrable than wood, so A is more penetrable than B"
+ },
+ "18-negation-original": {
+  "correct": "A is made out of concrete, B is made out of wood, and concrete is less penetrable than wood, so A is not more penetrable than B",
+  "incorrect": "A is made out of concrete, B is made out of wood, and concrete is less penetrable than wood, so A is not less penetrable than B"
+ },
+ "19-original-original": {
+  "correct": "A is made out of glass, B is made out of tar, and glass will reflect light better than tar, so A will reflect light better than B",
+  "incorrect": "A is made out of glass, B is made out of tar, and glass will reflect light better than tar, so A will reflect light worse than B"
+ },
+ "19-negation-original": {
+  "correct": "A is made out of glass, B is made out of tar, and glass will reflect light better than tar, so A will not reflect light worse than B",
+  "incorrect": "A is made out of glass, B is made out of tar, and glass will reflect light better than tar, so A will not reflect light better than B"
+ }
+}

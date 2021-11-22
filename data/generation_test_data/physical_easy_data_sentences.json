@@ -1,0 +1,162 @@
+{
+ "0-original-original": {
+  "correct": "A is smaller than B, and smaller objects are easier to put into a box, so A is easier to put into a box than B",
+  "incorrect": "A is smaller than B, and smaller objects are easier to put into a box, so A is harder to put into a box than B"
+ },
+ "0-negation-original": {
+  "correct": "A is smaller than B, and smaller objects are easier to put into a box, so A is not harder to put into a box than B",
+  "incorrect": "A is smaller than B, and smaller objects are easier to put into a box, so A is not easier to put into a box than B"
+ },
+ "1-original-original": {
+  "correct": "A is heavier than B, and heavier objects are better at sinking, so A is better at sinking than B",
+  "incorrect": "A is heavier than B, and heavier objects are better at sinking, so A is worse at sinking than B"
+ },
+ "1-negation-original": {
+  "correct": "A is heavier than B, and heavier objects are better at sinking, so A is not worse at sinking than B",
+  "incorrect": "A is heavier than B, and heavier objects are better at sinking, so A is not better at sinking than B"
+ },
+ "2-original-original": {
+  "correct": "A is denser than B, and denser objects should withstand piercing more easily, so A should withstand piercing more easily than B",
+  "incorrect": "A is denser than B, and denser objects should withstand piercing more easily, so A should withstand piercing less easily than B"
+ },
+ "2-negation-original": {
+  "correct": "A is denser than B, and denser objects should withstand piercing more easily, so A should not withstand piercing less easily than B",
+  "incorrect": "A is denser than B, and denser objects should withstand piercing more easily, so A should not withstand piercing more easily than B"
+ },
+ "3-original-original": {
+  "correct": "A is wider than B, and wider objects find it harder to slip through cracks, so A finds it harder to slip through cracks than B",
+  "incorrect": "A is wider than B, and wider objects find it harder to slip through cracks, so A finds it easier to slip through cracks than B"
+ },
+ "3-negation-original": {
+  "correct": "A is wider than B, and wider objects find it harder to slip through cracks, so A does not find it easier to slip through cracks than B",
+  "incorrect": "A is wider than B, and wider objects find it harder to slip through cracks, so A does not find it harder to slip through cracks than B"
+ },
+ "4-original-original": {
+  "correct": "A is hotter than B, and hotter objects should be easier to melt than, so A should be easier to melt than B",
+  "incorrect": "A is hotter than B, and hotter objects should be easier to melt than, so A should be harder to melt than B"
+ },
+ "4-negation-original": {
+  "correct": "A is hotter than B, and hotter objects should be easier to melt than, so A should not be harder to melt than B",
+  "incorrect": "A is hotter than B, and hotter objects should be easier to melt than, so A should not be easier to melt than B"
+ },
+ "5-original-original": {
+  "correct": "A is more elastic than B, and more elastic objects should bounce better, so A should bounce better than B",
+  "incorrect": "A is more elastic than B, and more elastic objects should bounce better, so A should bounce worse than B"
+ },
+ "5-negation-original": {
+  "correct": "A is more elastic than B, and more elastic objects should bounce better, so A should not bounce worse than B",
+  "incorrect": "A is more elastic than B, and more elastic objects should bounce better, so A should not bounce better than B"
+ },
+ "6-original-original": {
+  "correct": "A is tougher than B, and tougher objects are harder to rip apart, so A is harder to rip apart than B",
+  "incorrect": "A is tougher than B, and tougher objects are harder to rip apart, so A is easier to rip apart than B"
+ },
+ "6-negation-original": {
+  "correct": "A is tougher than B, and tougher objects are harder to rip apart, so A is not easier to rip apart than B",
+  "incorrect": "A is tougher than B, and tougher objects are harder to rip apart, so A is not harder to rip apart than B"
+ },
+ "7-original-original": {
+  "correct": "A is harder than B, and harder objects are less comfortable, so A is less comfortable than B",
+  "incorrect": "A is harder than B, and harder objects are less comfortable, so A is more comfortable than B"
+ },
+ "7-negation-original": {
+  "correct": "A is harder than B, and harder objects are less comfortable, so A is not more comfortable than B",
+  "incorrect": "A is harder than B, and harder objects are less comfortable, so A is not less comfortable than B"
+ },
+ "8-original-original": {
+  "correct": "A is taller than B, and taller objects cast a more lengthy shadow, so A will cast a more lengthy shadow than B",
+  "incorrect": "A is taller than B, and taller objects cast a more lengthy shadow, so A will cast a less lengthy shadow than B"
+ },
+ "8-negation-original": {
+  "correct": "A is taller than B, and taller objects cast a more lengthy shadow, so A will not cast a less lengthy shadow than B",
+  "incorrect": "A is taller than B, and taller objects cast a more lengthy shadow, so A will not cast a more lengthy shadow than B"
+ },
+ "9-original-original": {
+  "correct": "A is lighter than B, and lighter objects find it harder to support weight, so A finds it harder to support weight than B",
+  "incorrect": "A is lighter than B, and lighter objects find it harder to support weight, so A finds it easier to support weight than B"
+ },
+ "9-negation-original": {
+  "correct": "A is lighter than B, and lighter objects find it harder to support weight, so A does not find it easier to support weight than B",
+  "incorrect": "A is lighter than B, and lighter objects find it harder to support weight, so A does not find it harder to support weight than B"
+ },
+ "10-original-original": {
+  "correct": "A has less momentum than B, and objects with less momentum have a worse ability to damage on impact, so A has a worse ability to damage on impact than B",
+  "incorrect": "A has less momentum than B, and objects with less momentum have a worse ability to damage on impact, so A has a better ability to damage on impact than B"
+ },
+ "10-negation-original": {
+  "correct": "A has less momentum than B, and objects with less momentum have a worse ability to damage on impact, so A does not have a better ability to damage on impact than B",
+  "incorrect": "A has less momentum than B, and objects with less momentum have a worse ability to damage on impact, so A does not have a worse ability to damage on impact than B"
+ },
+ "11-original-original": {
+  "correct": "A is more luminous than B, and more luminous objects are more dangerous to look at, so A is more dangerous to look at than B",
+  "incorrect": "A is more luminous than B, and more luminous objects are more dangerous to look at, so A is less dangerous to look at than B"
+ },
+ "11-negation-original": {
+  "correct": "A is more luminous than B, and more luminous objects are more dangerous to look at, so A is not less dangerous to look at than B",
+  "incorrect": "A is more luminous than B, and more luminous objects are more dangerous to look at, so A is not more dangerous to look at than B"
+ },
+ "12-original-original": {
+  "correct": "A is more soluble than B, and more soluble objects are harder to discern in water, so A is harder to discern in water than B",
+  "incorrect": "A is more soluble than B, and more soluble objects are harder to discern in water, so A is easier to discern in water than B"
+ },
+ "12-negation-original": {
+  "correct": "A is more soluble than B, and more soluble objects are harder to discern in water, so A is not easier to discern in water than B",
+  "incorrect": "A is more soluble than B, and more soluble objects are harder to discern in water, so A is not harder to discern in water than B"
+ },
+ "13-original-original": {
+  "correct": "A is more pungent than B, and more pungent objects are easier to detect, so A is easier to detect than B",
+  "incorrect": "A is more pungent than B, and more pungent objects are easier to detect, so A is harder to detect than B"
+ },
+ "13-negation-original": {
+  "correct": "A is more pungent than B, and more pungent objects are easier to detect, so A is not harder to detect than B",
+  "incorrect": "A is more pungent than B, and more pungent objects are easier to detect, so A is not easier to detect than B"
+ },
+ "14-original-original": {
+  "correct": "A is smaller than B, and smaller objects find it harder to displace liquid in a tub, so A finds it harder to displace liquid in a tub than B",
+  "incorrect": "A is smaller than B, and smaller objects find it harder to displace liquid in a tub, so A finds it easier to displace liquid in a tub than B"
+ },
+ "14-negation-original": {
+  "correct": "A is smaller than B, and smaller objects find it harder to displace liquid in a tub, so A does not find it easier to displace liquid in a tub than B",
+  "incorrect": "A is smaller than B, and smaller objects find it harder to displace liquid in a tub, so A does not find it harder to displace liquid in a tub than B"
+ },
+ "15-original-original": {
+  "correct": "A is shorter than B, and shorter objects are worse for keeping things out of reach, so A is worse for keeping things out of reach than B",
+  "incorrect": "A is shorter than B, and shorter objects are worse for keeping things out of reach, so A is better for keeping things out of reach than B"
+ },
+ "15-negation-original": {
+  "correct": "A is shorter than B, and shorter objects are worse for keeping things out of reach, so A is not better for keeping things out of reach than B",
+  "incorrect": "A is shorter than B, and shorter objects are worse for keeping things out of reach, so A is not worse for keeping things out of reach than B"
+ },
+ "16-original-original": {
+  "correct": "A is larger than B, and larger objects are more difficult to carry, so A is more difficult to carry than B",
+  "incorrect": "A is larger than B, and larger objects are more difficult to carry, so A is less difficult to carry than B"
+ },
+ "16-negation-original": {
+  "correct": "A is larger than B, and larger objects are more difficult to carry, so A is not less difficult to carry than B",
+  "incorrect": "A is larger than B, and larger objects are more difficult to carry, so A is not more difficult to carry than B"
+ },
+ "17-original-original": {
+  "correct": "A is more taut than B, and more taut objects are worse at withstanding additional force, so A is worse at withstanding additional force than B",
+  "incorrect": "A is more taut than B, and more taut objects are worse at withstanding additional force, so A is better at withstanding additional force than B"
+ },
+ "17-negation-original": {
+  "correct": "A is more taut than B, and more taut objects are worse at withstanding additional force, so A is not better at withstanding additional force than B",
+  "incorrect": "A is more taut than B, and more taut objects are worse at withstanding additional force, so A is not worse at withstanding additional force than B"
+ },
+ "18-original-original": {
+  "correct": "A is much hotter than B, and much hotter objects will be more painful to hold onto, so A will be more painful to hold onto than B",
+  "incorrect": "A is much hotter than B, and much hotter objects will be more painful to hold onto, so A will be less painful to hold onto than B"
+ },
+ "18-negation-original": {
+  "correct": "A is much hotter than B, and much hotter objects will be more painful to hold onto, so A will not be less painful to hold onto than B",
+  "incorrect": "A is much hotter than B, and much hotter objects will be more painful to hold onto, so A will not be more painful to hold onto than B"
+ },
+ "19-original-original": {
+  "correct": "A is more magnetic than B, and more magnetic objects are harder to separate from another magnet, so A is harder to separate from another magnet than B",
+  "incorrect": "A is more magnetic than B, and more magnetic objects are harder to separate from another magnet, so A is easier to separate from another magnet than B"
+ },
+ "19-negation-original": {
+  "correct": "A is more magnetic than B, and more magnetic objects are harder to separate from another magnet, so A is not easier to separate from another magnet than B",
+  "incorrect": "A is more magnetic than B, and more magnetic objects are harder to separate from another magnet, so A is not harder to separate from another magnet than B"
+ }
+}

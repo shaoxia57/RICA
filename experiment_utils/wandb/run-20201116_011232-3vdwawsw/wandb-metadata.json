@@ -1,0 +1,40 @@
+{
+    "root": "/home/seyeon/RICA",
+    "program": "../transformers/examples/language-modeling/run_clm.py",
+    "git": {
+        "remote": "https://github.com/slee211/RICA.git",
+        "commit": "bf0231fb759a5ea289aa5a1d954da27dbdd0857c"
+    },
+    "email": null,
+    "startedAt": "2020-11-16T09:12:32.808795",
+    "host": "ink-ron",
+    "username": "seyeon",
+    "executable": "/home/seyeon/.conda/envs/seyeon/bin/python",
+    "os": "Linux-4.15.0-108-generic-x86_64-with-debian-buster-sid",
+    "python": "3.6.10",
+    "gpu": "GeForce GTX 1080 Ti",
+    "gpu_count": 7,
+    "cpu_count": 56,
+    "cuda": "10.1.105",
+    "args": [
+        "--model_name_or_path",
+        "gpt2",
+        "--train_file",
+        "../data/10k_byset/1/train_sentences.txt",
+        "--validation_file",
+        "../data/10k_byset/test_sentences.txt",
+        "--per_gpu_train_batch_size=1",
+        "--per_gpu_eval_batch_size=1",
+        "--do_train",
+        "--do_eval",
+        "--output_dir",
+        "../../model/gpt-2/sample_by_set_1entity/"
+    ],
+    "state": "finished",
+    "jobType": null,
+    "mode": "run",
+    "name": "../../model/gpt-2/sample_by_set_1entity/",
+    "project": "huggingface",
+    "heartbeatAt": "2020-11-16T09:16:57.790448",
+    "exitcode": 0
+}

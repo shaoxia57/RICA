@@ -1,0 +1,24 @@
+Defaulting to user installation because normal site-packages is not writeable
+Collecting transformers
+  Using cached transformers-3.5.1-py3-none-any.whl (1.3 MB)
+Requirement already satisfied: numpy in /opt/anaconda3/lib/python3.6/site-packages (from transformers) (1.14.3)
+Requirement already satisfied: regex!=2019.12.17 in /home/seyeon/.local/lib/python3.6/site-packages (from transformers) (2020.11.13)
+Requirement already satisfied: protobuf in /home/seyeon/.local/lib/python3.6/site-packages (from transformers) (3.14.0)
+Requirement already satisfied: packaging in /opt/anaconda3/lib/python3.6/site-packages (from transformers) (17.1)
+Requirement already satisfied: tokenizers==0.9.3 in /home/seyeon/.local/lib/python3.6/site-packages (from transformers) (0.9.3)
+Requirement already satisfied: sentencepiece==0.1.91 in /home/seyeon/.local/lib/python3.6/site-packages (from transformers) (0.1.91)
+Requirement already satisfied: requests in /opt/anaconda3/lib/python3.6/site-packages (from transformers) (2.18.4)
+Requirement already satisfied: sacremoses in /home/seyeon/.local/lib/python3.6/site-packages (from transformers) (0.0.43)
+Requirement already satisfied: tqdm>=4.27 in /opt/anaconda3/lib/python3.6/site-packages (from transformers) (4.44.1)
+Requirement already satisfied: filelock in /opt/anaconda3/lib/python3.6/site-packages (from transformers) (3.0.4)
+Requirement already satisfied: dataclasses; python_version < "3.7" in /home/seyeon/.local/lib/python3.6/site-packages (from transformers) (0.8)
+Requirement already satisfied: six>=1.9 in /opt/anaconda3/lib/python3.6/site-packages (from protobuf->transformers) (1.14.0)
+Requirement already satisfied: pyparsing>=2.0.2 in /opt/anaconda3/lib/python3.6/site-packages (from packaging->transformers) (2.2.0)
+Requirement already satisfied: chardet<3.1.0,>=3.0.2 in /opt/anaconda3/lib/python3.6/site-packages (from requests->transformers) (3.0.4)
+Requirement already satisfied: idna<2.7,>=2.5 in /opt/anaconda3/lib/python3.6/site-packages (from requests->transformers) (2.6)
+Requirement already satisfied: urllib3<1.23,>=1.21.1 in /opt/anaconda3/lib/python3.6/site-packages (from requests->transformers) (1.22)
+Requirement already satisfied: certifi>=2017.4.17 in /opt/anaconda3/lib/python3.6/site-packages (from requests->transformers) (2020.4.5.1)
+Requirement already satisfied: joblib in /home/seyeon/.local/lib/python3.6/site-packages (from sacremoses->transformers) (0.17.0)
+Requirement already satisfied: click in /opt/anaconda3/lib/python3.6/site-packages (from sacremoses->transformers) (6.7)
+Installing collected packages: transformers
+Successfully installed transformers-3.5.1

@@ -1,0 +1,32 @@
+  0%|                                                                                                                                                                              | 0/9891 [00:00<?, ?it/s]Traceback (most recent call last):
+  File "../transformers/examples/language-modeling/run_clm.py", line 354, in <module>
+    main()
+  File "../transformers/examples/language-modeling/run_clm.py", line 323, in main
+    model_path=model_args.model_name_or_path if os.path.isdir(model_args.model_name_or_path) else None
+  File "/home/seyeon/.local/lib/python3.6/site-packages/transformers/trainer.py", line 775, in train
+    tr_loss += self.training_step(model, inputs)
+  File "/home/seyeon/.local/lib/python3.6/site-packages/transformers/trainer.py", line 1112, in training_step
+    loss = self.compute_loss(model, inputs)
+  File "/home/seyeon/.local/lib/python3.6/site-packages/transformers/trainer.py", line 1136, in compute_loss
+    outputs = model(**inputs)
+  File "/home/seyeon/.conda/envs/seyeon/lib/python3.6/site-packages/torch/nn/modules/module.py", line 532, in __call__
+    result = self.forward(*input, **kwargs)
+  File "/home/seyeon/.local/lib/python3.6/site-packages/transformers/modeling_gpt2.py", line 787, in forward
+    return_dict=return_dict,
+  File "/home/seyeon/.conda/envs/seyeon/lib/python3.6/site-packages/torch/nn/modules/module.py", line 532, in __call__
+    result = self.forward(*input, **kwargs)
+  File "/home/seyeon/.local/lib/python3.6/site-packages/transformers/modeling_gpt2.py", line 659, in forward
+    output_attentions=output_attentions,
+  File "/home/seyeon/.conda/envs/seyeon/lib/python3.6/site-packages/torch/nn/modules/module.py", line 532, in __call__
+    result = self.forward(*input, **kwargs)
+  File "/home/seyeon/.local/lib/python3.6/site-packages/transformers/modeling_gpt2.py", line 320, in forward
+    feed_forward_hidden_states = self.mlp(self.ln_2(hidden_states))
+  File "/home/seyeon/.conda/envs/seyeon/lib/python3.6/site-packages/torch/nn/modules/module.py", line 532, in __call__
+    result = self.forward(*input, **kwargs)
+  File "/home/seyeon/.local/lib/python3.6/site-packages/transformers/modeling_gpt2.py", line 260, in forward
+    h = self.act(self.c_fc(x))
+  File "/home/seyeon/.conda/envs/seyeon/lib/python3.6/site-packages/torch/nn/modules/module.py", line 532, in __call__
+    result = self.forward(*input, **kwargs)
+  File "/home/seyeon/.local/lib/python3.6/site-packages/transformers/modeling_utils.py", line 1119, in forward
+    x = torch.addmm(self.bias, x.view(-1, x.size(-1)), self.weight)
+RuntimeError: CUDA out of memory. Tried to allocate 12.00 MiB (GPU 0; 10.92 GiB total capacity; 1.43 GiB already allocated; 4.50 MiB free; 1.50 GiB reserved in total by PyTorch)

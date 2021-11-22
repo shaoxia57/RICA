@@ -1,0 +1,162 @@
+{
+ "0-original-original": {
+  "correct": "A makes the varsity team while B does not, and people who make the varsity team are more skilled, so A is more skilled than B",
+  "incorrect": "A makes the varsity team while B does not, and people who make the varsity team are more skilled, so A is less skilled than B"
+ },
+ "0-negation-original": {
+  "correct": "A makes the varsity team while B does not, and people who make the varsity team are more skilled, so A isn't less skilled than B",
+  "incorrect": "A makes the varsity team while B does not, and people who make the varsity team are more skilled, so A isn't more skilled than B"
+ },
+ "1-original-original": {
+  "correct": "A is going to perform for people while B is not, and people who are going to perform for people find it harder to be relaxed, so A finds it harder to be relaxed than B",
+  "incorrect": "A is going to perform for people while B is not, and people who are going to perform for people find it harder to be relaxed, so A finds it easier to be relaxed than B"
+ },
+ "1-negation-original": {
+  "correct": "A is going to perform for people while B is not, and people who are going to perform for people find it harder to be relaxed, so A does not find it easier to be relaxed than B",
+  "incorrect": "A is going to perform for people while B is not, and people who are going to perform for people find it harder to be relaxed, so A does not find it harder to be relaxed than B"
+ },
+ "2-original-original": {
+  "correct": "A won the competition while B did not, and people who win a competition find it easier to be happy, so A finds it easier to be happy than B",
+  "incorrect": "A won the competition while B did not, and people who win a competition find it easier to be happy, so A finds it harder to be happy than B"
+ },
+ "2-negation-original": {
+  "correct": "A won the competition while B did not, and people who win a competition find it easier to be happy, so A does not find it harder to be happy than B",
+  "incorrect": "A won the competition while B did not, and people who win a competition find it easier to be happy, so A does not find it easier to be happy than B"
+ },
+ "3-original-original": {
+  "correct": "A is able to concentrate more than B, and people who are able to concentrate more find it easier to be effective, so A finds it easier to be productive than B",
+  "incorrect": "A is able to concentrate more than B, and people who are able to concentrate more find it easier to be effective, so A finds it harder to be productive than B"
+ },
+ "3-negation-original": {
+  "correct": "A is able to concentrate more than B, and people who are able to concentrate more find it easier to be effective, so A does not find it harder to be productive than B",
+  "incorrect": "A is able to concentrate more than B, and people who are able to concentrate more find it easier to be effective, so A does not find it easier to be productive than B"
+ },
+ "4-original-original": {
+  "correct": "A bullies people while B does not, and people who bully people are less kind, so A is less kind than B",
+  "incorrect": "A bullies people while B does not, and people who bully people are less kind, so A is more kind than B"
+ },
+ "4-negation-original": {
+  "correct": "A bullies people while B does not, and people who bully people are less kind, so A isn't more kind than B",
+  "incorrect": "A bullies people while B does not, and people who bully people are less kind, so A isn't less kind than B"
+ },
+ "5-original-original": {
+  "correct": "A is B's boss, and people who are bosses command more respect, so A commands more respect than B",
+  "incorrect": "A is B's boss, and people who are bosses command more respect, so A commands less respect than B"
+ },
+ "5-negation-original": {
+  "correct": "A is B's boss, and people who are bosses command more respect, so A does not command less respect than B",
+  "incorrect": "A is B's boss, and people who are bosses command more respect, so A does not command more respect than B"
+ },
+ "6-original-original": {
+  "correct": "A has more work than B, and people who have more work find it harder to be at ease, so A finds it harder to be at ease than B",
+  "incorrect": "A has more work than B, and people who have more work find it harder to be at ease, so A finds it easier to be at ease than B"
+ },
+ "6-negation-original": {
+  "correct": "A has more work than B, and people who have more work find it harder to be at ease, so A does not find it easier to be at ease than B",
+  "incorrect": "A has more work than B, and people who have more work find it harder to be at ease, so A does not find it harder to be at ease than B"
+ },
+ "7-original-original": {
+  "correct": "A has a crush on B, and people who have a crush on someone find it harder to be relaxed around that person, so A finds it harder to be relaxed around B",
+  "incorrect": "A has a crush on B, and people who have a crush on someone find it harder to be relaxed around that person, so A finds it easier to be relaxed around B"
+ },
+ "7-negation-original": {
+  "correct": "A has a crush on B, and people who have a crush on someone find it harder to be relaxed around that person, so A does not find it easier to be relaxed around B",
+  "incorrect": "A has a crush on B, and people who have a crush on someone find it harder to be relaxed around that person, so A does not find it harder to be relaxed around B"
+ },
+ "8-original-original": {
+  "correct": "A has more dedication than B, and people who have more dedication have a harder time failing, so A will have a harder time failing than B",
+  "incorrect": "A has more dedication than B, and people who have more dedication have a harder time failing, so A will have a easier time failing than B"
+ },
+ "8-negation-original": {
+  "correct": "A has more dedication than B, and people who have more dedication have a harder time failing, so A will not have a easier time failing than B",
+  "incorrect": "A has more dedication than B, and people who have more dedication have a harder time failing, so A will not have a harder time failing than B"
+ },
+ "9-original-original": {
+  "correct": "A is B's parent, and parents initially take more care of their children, so A initially takes more care of B",
+  "incorrect": "A is B's parent, and parents initially take more care of their children, so A initially takes less care of B"
+ },
+ "9-negation-original": {
+  "correct": "A is B's parent, and parents initially take more care of their children, so A initially does not take less care of B",
+  "incorrect": "A is B's parent, and parents initially take more care of their children, so A initially does not take more care of B"
+ },
+ "10-original-original": {
+  "correct": "A is B's doctor, and doctors take more care of people than others, so A takes more care of B",
+  "incorrect": "A is B's doctor, and doctors take more care of people than others, so A takes less care of B"
+ },
+ "10-negation-original": {
+  "correct": "A is B's doctor, and doctors take more care of people than others, so A does not take less care of B",
+  "incorrect": "A is B's doctor, and doctors take more care of people than others, so A does not take more care of B"
+ },
+ "11-original-original": {
+  "correct": "A hurt B's feelings, and people who hurt people's feelings must be more insensitive, so A must be more insensitive than B",
+  "incorrect": "A hurt B's feelings, and people who hurt people's feelings must be more insensitive, so A must be less insensitive than B"
+ },
+ "11-negation-original": {
+  "correct": "A hurt B's feelings, and people who hurt people's feelings must be more insensitive, so A must not be less insensitive than B",
+  "incorrect": "A hurt B's feelings, and people who hurt people's feelings must be more insensitive, so A must not be more insensitive than B"
+ },
+ "12-original-original": {
+  "correct": "A is B's priest, and priests spend less time sinning, so A spends less time sinning than B",
+  "incorrect": "A is B's priest, and priests spend less time sinning, so A spends more time sinning than B"
+ },
+ "12-negation-original": {
+  "correct": "A is B's priest, and priests spend less time sinning, so A does not spend more time sinning than B",
+  "incorrect": "A is B's priest, and priests spend less time sinning, so A does not spend less time sinning than B"
+ },
+ "13-original-original": {
+  "correct": "A is B's lawyer, and lawyers are less ignorant of the law, so A is less ignorant of the law than B",
+  "incorrect": "A is B's lawyer, and lawyers are less ignorant of the law, so A is more ignorant of the law than B"
+ },
+ "13-negation-original": {
+  "correct": "A is B's lawyer, and lawyers are less ignorant of the law, so A is not more ignorant of the law than B",
+  "incorrect": "A is B's lawyer, and lawyers are less ignorant of the law, so A is not less ignorant of the law than B"
+ },
+ "14-original-original": {
+  "correct": "A has a lot less money than B, and people who have little money are less financially secure, so A is less financially secure than B",
+  "incorrect": "A has a lot less money than B, and people who have little money are less financially secure, so A is more financially secure than B"
+ },
+ "14-negation-original": {
+  "correct": "A has a lot less money than B, and people who have little money are less financially secure, so A is not more financially secure than B",
+  "incorrect": "A has a lot less money than B, and people who have little money are less financially secure, so A is not less financially secure than B"
+ },
+ "15-original-original": {
+  "correct": "A watches more tv shows than B, and people who watch more tv are more capable of understanding pop-culture references, so A is more capable of understanding pop-culture references than B",
+  "incorrect": "A watches more tv shows than B, and people who watch more tv are more capable of understanding pop-culture references, so A is less capable of understanding pop-culture references than B"
+ },
+ "15-negation-original": {
+  "correct": "A watches more tv shows than B, and people who watch more tv are more capable of understanding pop-culture references, so A is not less capable of understanding pop-culture references than B",
+  "incorrect": "A watches more tv shows than B, and people who watch more tv are more capable of understanding pop-culture references, so A is not more capable of understanding pop-culture references than B"
+ },
+ "16-original-original": {
+  "correct": "A always loses to B in tennis, and people who always loose in tennis are less proficient tennis players, so A is a less proficient tennis player than B",
+  "incorrect": "A always loses to B in tennis, and people who always loose in tennis are less proficient tennis players, so A is a more proficient tennis player than B"
+ },
+ "16-negation-original": {
+  "correct": "A always loses to B in tennis, and people who always loose in tennis are less proficient tennis players, so A is not a more proficient tennis not player than B",
+  "incorrect": "A always loses to B in tennis, and people who always loose in tennis are less proficient tennis players, so A is not a less proficient tennis not player than B"
+ },
+ "17-original-original": {
+  "correct": "A makes B late, and people who make people late have less reason to be annoyed at others, so A has less reason to be annoyed at B",
+  "incorrect": "A makes B late, and people who make people late have less reason to be annoyed at others, so A has more reason to be annoyed at B"
+ },
+ "17-negation-original": {
+  "correct": "A makes B late, and people who make people late have less reason to be annoyed at others, so A has not more reason to be annoyed at B",
+  "incorrect": "A makes B late, and people who make people late have less reason to be annoyed at others, so A has not less reason to be annoyed at B"
+ },
+ "18-original-original": {
+  "correct": "A is a better friend than B, and people who are better friends are more thoughtful, so A is more thoughtful than B",
+  "incorrect": "A is a better friend than B, and people who are better friends are more thoughtful, so A is less thoughtful than B"
+ },
+ "18-negation-original": {
+  "correct": "A is a better friend than B, and people who are better friends are more thoughtful, so A is not less thoughtful than B",
+  "incorrect": "A is a better friend than B, and people who are better friends are more thoughtful, so A is not more thoughtful than B"
+ },
+ "19-original-original": {
+  "correct": "A is B's teacher, and teachers are more informed than others, so A should be more informed than B",
+  "incorrect": "A is B's teacher, and teachers are more informed than others, so A should be less informed than B"
+ },
+ "19-negation-original": {
+  "correct": "A is B's teacher, and teachers are more informed than others, so A should not be less informed than B",
+  "incorrect": "A is B's teacher, and teachers are more informed than others, so A should not be more informed than B"
+ }
+}
