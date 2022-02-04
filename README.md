@@ -1,4 +1,13 @@
-1. All data is in `data`
+1. For [Leaderboard](https://eval.ai/web/challenges/challenge-page/832/overview) submission:
+    1. Zero-Shot Setting:
+        - Training data : None
+        - Test data: `data/joint_test_set/test_sentences.txt`
+    2. Fine-Tuning Setting:
+        - Training data : `data/10k_byset`
+        - Test data: `data/joint_test_set/test_sentences.txt`
+
+
+2. All data is in `data`
     1. Training Data
          - 100k data : `data/100k`
          - 10k data for high resource : `data/10k_byset`
@@ -10,7 +19,7 @@
          - Joint test set : `data/joint_test_set/test_sentences.txt`
                
 
-2. Finetuning BERT/RoBERTa for MWP
+3. Finetuning BERT/RoBERTa for MWP
     1. Finetuning code `train_mlm.py` is in `happy-transformer/examples/`
         
         `python train_mlm.py training_data_directory #_of_novel_entities output_filename model_name seed_number`
@@ -23,10 +32,10 @@
        
        `e.g. python test_mlm.py 10k_byset 10 10_roberta-large-42.txt`
    
-3. Finetuning GPT2
+4. Finetuning GPT2
     1. You can finetune GPT2 using `experiments/fine_tune_GPT-2.sh`
  
-4. Testing Models
+5. Testing Models
     1. For finetuned models
         - BERT `experiments/eval_bert_finetuned.py`
     
