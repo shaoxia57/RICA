@@ -24,49 +24,49 @@
     1. For zeroshot
         - BERT `experiments/eval_bert_zeroshot.py`
     
-            `python eval_bert_zeroshot.py test_dir_name test_name(easy/hard/joint) filename seed`
+            ``python eval_bert_zeroshot.py test_dir_name test_name(easy/hard/joint) filename seed``
        
-            `e.g. python eval_bert_zeroshot.py joint_test_set joint bert-large-42 42`
+            e.g. ``python eval_bert_zeroshot.py joint_test_set joint bert-large-42 42``
         - RoBERTa `experiments/eval_roberta_zeroshot.py`
     
-            `python eval_roberta_zeroshot.py test_dir_name test_name(easy/hard/joint) filename seed`
+            ``python eval_roberta_zeroshot.py test_dir_name test_name(easy/hard/joint) filename seed``
        
-            `e.g. python eval_roberta_zeroshot.py joint_test_set joint roberta-large-42 42`
+            ``e.g. python eval_roberta_zeroshot.py joint_test_set joint roberta-large-42 42``
         - GPT2 `experiments/eval_gpt2_zeroshot.py` 
     
-            `python eval_gpt2_zeroshot.py`
+            ``python eval_gpt2_zeroshot.py``
         
     2. For finetuned models
         - BERT `experiments/eval_bert_finetuned.py`
     
-            `python eval_bert_finetuned.py test_data_dir model_dir output_dir #of_novel_entities model_name`
+            ``python eval_bert_finetuned.py test_data_dir model_dir output_dir #of_novel_entities model_name``
        
-            `e.g. python eval_bert_finetuned.py human_curated_set 10k 10k_fine_tuned 1 bert-large-42`
+            e.g. ``python eval_bert_finetuned.py human_curated_set 10k 10k_fine_tuned 1 bert-large-42``
         - RoBERTa `experiments/eval_roberta_finetuned.py`
     
-            `python eval_roberta_finetuned.py test_data_dir model_dir output_dir #of_novel_entities model_name`
+            `python eval_roberta_finetuned.py test_data_dir model_dir output_dir #of_novel_entities model_name``
        
-            `e.g. python eval_roberta_finetuned.py human_curated_set 10k 10k_fine_tuned 1 robert-large-42`
+            e.g. ``python eval_roberta_finetuned.py human_curated_set 10k 10k_fine_tuned 1 robert-large-42``
         - GPT2 `experiments/run_generative_gpt2_on_easy.py` `experiments/run_generative_gpt2_on_hard.py` `experiments/run_generative_gpt2_on_joint.py`
     
-            `python run_generative_gpt2_on_easy.py #_of_novel_entities`
+            ``python run_generative_gpt2_on_easy.py #_of_novel_entities``
        
-            `e.g. python run_generative_gpt2_on_easy.py 5`
+            e.g. ``python run_generative_gpt2_on_easy.py 5``
 
 
    
 4. Finetuning BERT/RoBERTa for MWP
     1. Finetuning code `train_mlm.py` is in `happy-transformer/examples/`
         
-        `python train_mlm.py training_data_directory #_of_novel_entities output_filename model_name seed_number`
+        ``python train_mlm.py training_data_directory #_of_novel_entities output_filename model_name seed_number``
        
-       `e.g. python train_mlm.py 10k 10 roberta-large-42 roberta-large 42`
+       e.g. ``python train_mlm.py 10k 10 roberta-large-42 roberta-large 42``
         
     2. After finetuning, you can get the average binary score using `experiments/test_mlm.py`
     
-        `python test_mlm.py training_data_directory filename.txt`
+        ``python test_mlm.py training_data_directory filename.txt``
        
-       `e.g. python test_mlm.py 10k 10 10_roberta-large-42.txt`
+       e.g. ``python test_mlm.py 10k 10 10_roberta-large-42.txt``
  
 5. Finetuning GPT2
     1. You can finetune GPT2 using `experiments/fine_tune_GPT-2.sh`
