@@ -1,10 +1,10 @@
 1. For [Leaderboard](https://inklab.usc.edu/RICA/#exp) submission:
     1. Zero-Shot Setting:
         - Training data : None
-        - Test data: `data/joint_test_set/test_sentences.txt`
+        - Test data: `test_sentences.txt`
     2. Fine-Tuning Setting:
         - Training data : `data/10k/`
-        - Test data: `data/joint_test_set/test_sentences.txt`
+        - Test data: `test_sentences.txt`
 
 
 2. All data is in `data`:
@@ -13,14 +13,10 @@
          - `data/RICA_253k_axiom2set.jsonl`
     2. Human-Verified 10k data in json format
          - `data/RICA_10k_axiom2set.jsonl`
-    3. Test Data
-         - Easy test set (from human-verified generated set) : `data/easy_test_sentences.txt`
-         - Hard test set (from human-curated set) : `data/hard_test_sentences.txt`
-         - Joint test set : `data/joint_test_set/test_sentences.txt`
                
 
 3. Testing Models
-    - Besides the following scripts, we also prepared a Jupyter notebook in `experiments/Probing_Examples.ipynb` that use the most up-to-date Huggingface pipeline for masked word prediction.
+    - Besides the following scripts, we also prepared a Jupyter notebook in `Probing_Examples.ipynb` that use the most up-to-date Huggingface pipeline for masked word prediction.
     1. For zeroshot
         - BERT `experiments/eval_bert_zeroshot.py`
     
